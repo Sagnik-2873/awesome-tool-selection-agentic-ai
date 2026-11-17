@@ -1,0 +1,25 @@
+{
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scikit_learn": "1.8.0",
+  "methods": [
+    "tfidf_word",
+    "tfidf_char",
+    "constraint_aware",
+    "constraint_no_domain",
+    "constraint_no_format"
+  ],
+  "variants": [
+    "original",
+    "reordered",
+    "distractor"
+  ],
+  "seed": 2026,
+  "bootstrap_replicates": 3000,
+  "tool_count": 96,
+  "case_count": 540,
+  "sha256": {
+    "dataset/cases.json": "9d438a68f27fb8a2cb2dc7e768dca03209a43864db1bc97ffc060a6c3f2cbd53",
+    "dataset/tools.json": "e1d4aa7560d2a6c62708617c49610ab0294d37d5cd8cc47072dd30b0d53ccc54"
+  }
+}

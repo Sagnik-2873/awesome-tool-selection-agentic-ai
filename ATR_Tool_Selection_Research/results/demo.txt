@@ -1,0 +1,6 @@
+Request: Find weather forecasts for india with live information in json format.
+tfidf_word             weather__india__live__json
+tfidf_char             weather__india__live__json
+constraint_aware       weather__india__live__json
+constraint_no_domain   weather__india__live__json
+constraint_no_format   weather__india__live__json

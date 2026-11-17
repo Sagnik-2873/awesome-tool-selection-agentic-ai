@@ -1,0 +1,6902 @@
+[
+  {
+    "id": "train-weather-india-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Find weather report for india with live information in json format.",
+    "gold_ids": [
+      "weather__india__live__json"
+    ]
+  },
+  {
+    "id": "train-weather-india-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "I need india weather report; only live data, json output.",
+    "gold_ids": [
+      "weather__india__live__json"
+    ]
+  },
+  {
+    "id": "train-weather-india-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find weather report for india with live information in csv format.",
+    "gold_ids": [
+      "weather__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-weather-india-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need india weather report; only live data, csv output.",
+    "gold_ids": [
+      "weather__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-weather-india-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find weather report for india with historical information in json format.",
+    "gold_ids": [
+      "weather__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-weather-india-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need india weather report; only historical data, json output.",
+    "gold_ids": [
+      "weather__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-weather-india-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find weather report for india with historical information in csv format.",
+    "gold_ids": [
+      "weather__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-weather-india-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need india weather report; only historical data, csv output.",
+    "gold_ids": [
+      "weather__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-weather-global-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Find weather report for global with live information in json format.",
+    "gold_ids": [
+      "weather__global__live__json"
+    ]
+  },
+  {
+    "id": "train-weather-global-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "I need global weather report; only live data, json output.",
+    "gold_ids": [
+      "weather__global__live__json"
+    ]
+  },
+  {
+    "id": "train-weather-global-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find weather report for global with live information in csv format.",
+    "gold_ids": [
+      "weather__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-weather-global-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need global weather report; only live data, csv output.",
+    "gold_ids": [
+      "weather__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-weather-global-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find weather report for global with historical information in json format.",
+    "gold_ids": [
+      "weather__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-weather-global-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need global weather report; only historical data, json output.",
+    "gold_ids": [
+      "weather__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-weather-global-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find weather report for global with historical information in csv format.",
+    "gold_ids": [
+      "weather__global__historical__csv"
+    ]
+  },
+  {
+    "id": "train-weather-global-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need global weather report; only historical data, csv output.",
+    "gold_ids": [
+      "weather__global__historical__csv"
+    ]
+  },
+  {
+    "id": "train-currency-india-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Find money conversion rates for india with live information in json format.",
+    "gold_ids": [
+      "currency__india__live__json"
+    ]
+  },
+  {
+    "id": "train-currency-india-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "I need india money conversion rates; only live data, json output.",
+    "gold_ids": [
+      "currency__india__live__json"
+    ]
+  },
+  {
+    "id": "train-currency-india-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find money conversion rates for india with live information in csv format.",
+    "gold_ids": [
+      "currency__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-currency-india-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need india money conversion rates; only live data, csv output.",
+    "gold_ids": [
+      "currency__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-currency-india-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find money conversion rates for india with historical information in json format.",
+    "gold_ids": [
+      "currency__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-currency-india-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need india money conversion rates; only historical data, json output.",
+    "gold_ids": [
+      "currency__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-currency-india-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find money conversion rates for india with historical information in csv format.",
+    "gold_ids": [
+      "currency__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-currency-india-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need india money conversion rates; only historical data, csv output.",
+    "gold_ids": [
+      "currency__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-currency-global-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Find money conversion rates for global with live information in json format.",
+    "gold_ids": [
+      "currency__global__live__json"
+    ]
+  },
+  {
+    "id": "train-currency-global-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "I need global money conversion rates; only live data, json output.",
+    "gold_ids": [
+      "currency__global__live__json"
+    ]
+  },
+  {
+    "id": "train-currency-global-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find money conversion rates for global with live information in csv format.",
+    "gold_ids": [
+      "currency__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-currency-global-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need global money conversion rates; only live data, csv output.",
+    "gold_ids": [
+      "currency__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-currency-global-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find money conversion rates for global with historical information in json format.",
+    "gold_ids": [
+      "currency__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-currency-global-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need global money conversion rates; only historical data, json output.",
+    "gold_ids": [
+      "currency__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-currency-global-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find money conversion rates for global with historical information in csv format.",
+    "gold_ids": [
+      "currency__global__historical__csv"
+    ]
+  },
+  {
+    "id": "train-currency-global-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need global money conversion rates; only historical data, csv output.",
+    "gold_ids": [
+      "currency__global__historical__csv"
+    ]
+  },
+  {
+    "id": "train-maps-india-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Find driving routes for india with live information in json format.",
+    "gold_ids": [
+      "maps__india__live__json"
+    ]
+  },
+  {
+    "id": "train-maps-india-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "I need india driving routes; only live data, json output.",
+    "gold_ids": [
+      "maps__india__live__json"
+    ]
+  },
+  {
+    "id": "train-maps-india-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find driving routes for india with live information in csv format.",
+    "gold_ids": [
+      "maps__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-maps-india-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need india driving routes; only live data, csv output.",
+    "gold_ids": [
+      "maps__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-maps-india-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find driving routes for india with historical information in json format.",
+    "gold_ids": [
+      "maps__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-maps-india-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need india driving routes; only historical data, json output.",
+    "gold_ids": [
+      "maps__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-maps-india-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find driving routes for india with historical information in csv format.",
+    "gold_ids": [
+      "maps__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-maps-india-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need india driving routes; only historical data, csv output.",
+    "gold_ids": [
+      "maps__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-maps-global-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Find driving routes for global with live information in json format.",
+    "gold_ids": [
+      "maps__global__live__json"
+    ]
+  },
+  {
+    "id": "train-maps-global-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "I need global driving routes; only live data, json output.",
+    "gold_ids": [
+      "maps__global__live__json"
+    ]
+  },
+  {
+    "id": "train-maps-global-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find driving routes for global with live information in csv format.",
+    "gold_ids": [
+      "maps__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-maps-global-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need global driving routes; only live data, csv output.",
+    "gold_ids": [
+      "maps__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-maps-global-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find driving routes for global with historical information in json format.",
+    "gold_ids": [
+      "maps__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-maps-global-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need global driving routes; only historical data, json output.",
+    "gold_ids": [
+      "maps__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-maps-global-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find driving routes for global with historical information in csv format.",
+    "gold_ids": [
+      "maps__global__historical__csv"
+    ]
+  },
+  {
+    "id": "train-maps-global-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need global driving routes; only historical data, csv output.",
+    "gold_ids": [
+      "maps__global__historical__csv"
+    ]
+  },
+  {
+    "id": "train-news-india-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Find current events for india with live information in json format.",
+    "gold_ids": [
+      "news__india__live__json"
+    ]
+  },
+  {
+    "id": "train-news-india-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "I need india current events; only live data, json output.",
+    "gold_ids": [
+      "news__india__live__json"
+    ]
+  },
+  {
+    "id": "train-news-india-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find current events for india with live information in csv format.",
+    "gold_ids": [
+      "news__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-news-india-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need india current events; only live data, csv output.",
+    "gold_ids": [
+      "news__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-news-india-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find current events for india with historical information in json format.",
+    "gold_ids": [
+      "news__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-news-india-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need india current events; only historical data, json output.",
+    "gold_ids": [
+      "news__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-news-india-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find current events for india with historical information in csv format.",
+    "gold_ids": [
+      "news__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-news-india-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need india current events; only historical data, csv output.",
+    "gold_ids": [
+      "news__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-news-global-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "news",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Find current events for global with live information in json format.",
+    "gold_ids": [
+      "news__global__live__json"
+    ]
+  },
+  {
+    "id": "train-news-global-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "news",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "I need global current events; only live data, json output.",
+    "gold_ids": [
+      "news__global__live__json"
+    ]
+  },
+  {
+    "id": "train-news-global-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "news",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find current events for global with live information in csv format.",
+    "gold_ids": [
+      "news__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-news-global-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "news",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need global current events; only live data, csv output.",
+    "gold_ids": [
+      "news__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-news-global-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "news",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find current events for global with historical information in json format.",
+    "gold_ids": [
+      "news__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-news-global-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "news",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need global current events; only historical data, json output.",
+    "gold_ids": [
+      "news__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-news-global-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "news",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find current events for global with historical information in csv format.",
+    "gold_ids": [
+      "news__global__historical__csv"
+    ]
+  },
+  {
+    "id": "train-news-global-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "news",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need global current events; only historical data, csv output.",
+    "gold_ids": [
+      "news__global__historical__csv"
+    ]
+  },
+  {
+    "id": "train-translation-india-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Find language conversion for india with live information in json format.",
+    "gold_ids": [
+      "translation__india__live__json"
+    ]
+  },
+  {
+    "id": "train-translation-india-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "I need india language conversion; only live data, json output.",
+    "gold_ids": [
+      "translation__india__live__json"
+    ]
+  },
+  {
+    "id": "train-translation-india-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find language conversion for india with live information in csv format.",
+    "gold_ids": [
+      "translation__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-translation-india-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need india language conversion; only live data, csv output.",
+    "gold_ids": [
+      "translation__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-translation-india-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find language conversion for india with historical information in json format.",
+    "gold_ids": [
+      "translation__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-translation-india-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need india language conversion; only historical data, json output.",
+    "gold_ids": [
+      "translation__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-translation-india-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find language conversion for india with historical information in csv format.",
+    "gold_ids": [
+      "translation__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-translation-india-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need india language conversion; only historical data, csv output.",
+    "gold_ids": [
+      "translation__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-translation-global-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Find language conversion for global with live information in json format.",
+    "gold_ids": [
+      "translation__global__live__json"
+    ]
+  },
+  {
+    "id": "train-translation-global-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "I need global language conversion; only live data, json output.",
+    "gold_ids": [
+      "translation__global__live__json"
+    ]
+  },
+  {
+    "id": "train-translation-global-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find language conversion for global with live information in csv format.",
+    "gold_ids": [
+      "translation__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-translation-global-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need global language conversion; only live data, csv output.",
+    "gold_ids": [
+      "translation__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-translation-global-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find language conversion for global with historical information in json format.",
+    "gold_ids": [
+      "translation__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-translation-global-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need global language conversion; only historical data, json output.",
+    "gold_ids": [
+      "translation__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-translation-global-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find language conversion for global with historical information in csv format.",
+    "gold_ids": [
+      "translation__global__historical__csv"
+    ]
+  },
+  {
+    "id": "train-translation-global-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need global language conversion; only historical data, csv output.",
+    "gold_ids": [
+      "translation__global__historical__csv"
+    ]
+  },
+  {
+    "id": "train-stocks-india-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Find share price quotes for india with live information in json format.",
+    "gold_ids": [
+      "stocks__india__live__json"
+    ]
+  },
+  {
+    "id": "train-stocks-india-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "I need india share price quotes; only live data, json output.",
+    "gold_ids": [
+      "stocks__india__live__json"
+    ]
+  },
+  {
+    "id": "train-stocks-india-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find share price quotes for india with live information in csv format.",
+    "gold_ids": [
+      "stocks__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-stocks-india-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need india share price quotes; only live data, csv output.",
+    "gold_ids": [
+      "stocks__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-stocks-india-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find share price quotes for india with historical information in json format.",
+    "gold_ids": [
+      "stocks__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-stocks-india-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need india share price quotes; only historical data, json output.",
+    "gold_ids": [
+      "stocks__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-stocks-india-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find share price quotes for india with historical information in csv format.",
+    "gold_ids": [
+      "stocks__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-stocks-india-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need india share price quotes; only historical data, csv output.",
+    "gold_ids": [
+      "stocks__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-stocks-global-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Find share price quotes for global with live information in json format.",
+    "gold_ids": [
+      "stocks__global__live__json"
+    ]
+  },
+  {
+    "id": "train-stocks-global-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "I need global share price quotes; only live data, json output.",
+    "gold_ids": [
+      "stocks__global__live__json"
+    ]
+  },
+  {
+    "id": "train-stocks-global-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find share price quotes for global with live information in csv format.",
+    "gold_ids": [
+      "stocks__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-stocks-global-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need global share price quotes; only live data, csv output.",
+    "gold_ids": [
+      "stocks__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-stocks-global-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find share price quotes for global with historical information in json format.",
+    "gold_ids": [
+      "stocks__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-stocks-global-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need global share price quotes; only historical data, json output.",
+    "gold_ids": [
+      "stocks__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-stocks-global-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find share price quotes for global with historical information in csv format.",
+    "gold_ids": [
+      "stocks__global__historical__csv"
+    ]
+  },
+  {
+    "id": "train-stocks-global-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need global share price quotes; only historical data, csv output.",
+    "gold_ids": [
+      "stocks__global__historical__csv"
+    ]
+  },
+  {
+    "id": "train-sports-india-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Find match outcomes for india with live information in json format.",
+    "gold_ids": [
+      "sports__india__live__json"
+    ]
+  },
+  {
+    "id": "train-sports-india-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "I need india match outcomes; only live data, json output.",
+    "gold_ids": [
+      "sports__india__live__json"
+    ]
+  },
+  {
+    "id": "train-sports-india-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find match outcomes for india with live information in csv format.",
+    "gold_ids": [
+      "sports__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-sports-india-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need india match outcomes; only live data, csv output.",
+    "gold_ids": [
+      "sports__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-sports-india-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find match outcomes for india with historical information in json format.",
+    "gold_ids": [
+      "sports__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-sports-india-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need india match outcomes; only historical data, json output.",
+    "gold_ids": [
+      "sports__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-sports-india-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find match outcomes for india with historical information in csv format.",
+    "gold_ids": [
+      "sports__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-sports-india-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need india match outcomes; only historical data, csv output.",
+    "gold_ids": [
+      "sports__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-sports-global-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Find match outcomes for global with live information in json format.",
+    "gold_ids": [
+      "sports__global__live__json"
+    ]
+  },
+  {
+    "id": "train-sports-global-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "I need global match outcomes; only live data, json output.",
+    "gold_ids": [
+      "sports__global__live__json"
+    ]
+  },
+  {
+    "id": "train-sports-global-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find match outcomes for global with live information in csv format.",
+    "gold_ids": [
+      "sports__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-sports-global-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need global match outcomes; only live data, csv output.",
+    "gold_ids": [
+      "sports__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-sports-global-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find match outcomes for global with historical information in json format.",
+    "gold_ids": [
+      "sports__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-sports-global-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need global match outcomes; only historical data, json output.",
+    "gold_ids": [
+      "sports__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-sports-global-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find match outcomes for global with historical information in csv format.",
+    "gold_ids": [
+      "sports__global__historical__csv"
+    ]
+  },
+  {
+    "id": "train-sports-global-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need global match outcomes; only historical data, csv output.",
+    "gold_ids": [
+      "sports__global__historical__csv"
+    ]
+  },
+  {
+    "id": "train-flights-india-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Find airline tracking for india with live information in json format.",
+    "gold_ids": [
+      "flights__india__live__json"
+    ]
+  },
+  {
+    "id": "train-flights-india-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "I need india airline tracking; only live data, json output.",
+    "gold_ids": [
+      "flights__india__live__json"
+    ]
+  },
+  {
+    "id": "train-flights-india-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find airline tracking for india with live information in csv format.",
+    "gold_ids": [
+      "flights__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-flights-india-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need india airline tracking; only live data, csv output.",
+    "gold_ids": [
+      "flights__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-flights-india-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find airline tracking for india with historical information in json format.",
+    "gold_ids": [
+      "flights__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-flights-india-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need india airline tracking; only historical data, json output.",
+    "gold_ids": [
+      "flights__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-flights-india-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find airline tracking for india with historical information in csv format.",
+    "gold_ids": [
+      "flights__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-flights-india-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need india airline tracking; only historical data, csv output.",
+    "gold_ids": [
+      "flights__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-flights-global-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Find airline tracking for global with live information in json format.",
+    "gold_ids": [
+      "flights__global__live__json"
+    ]
+  },
+  {
+    "id": "train-flights-global-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "I need global airline tracking; only live data, json output.",
+    "gold_ids": [
+      "flights__global__live__json"
+    ]
+  },
+  {
+    "id": "train-flights-global-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find airline tracking for global with live information in csv format.",
+    "gold_ids": [
+      "flights__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-flights-global-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need global airline tracking; only live data, csv output.",
+    "gold_ids": [
+      "flights__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-flights-global-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find airline tracking for global with historical information in json format.",
+    "gold_ids": [
+      "flights__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-flights-global-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need global airline tracking; only historical data, json output.",
+    "gold_ids": [
+      "flights__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-flights-global-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find airline tracking for global with historical information in csv format.",
+    "gold_ids": [
+      "flights__global__historical__csv"
+    ]
+  },
+  {
+    "id": "train-flights-global-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need global airline tracking; only historical data, csv output.",
+    "gold_ids": [
+      "flights__global__historical__csv"
+    ]
+  },
+  {
+    "id": "train-traffic-india-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Find highway delays for india with live information in json format.",
+    "gold_ids": [
+      "traffic__india__live__json"
+    ]
+  },
+  {
+    "id": "train-traffic-india-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "I need india highway delays; only live data, json output.",
+    "gold_ids": [
+      "traffic__india__live__json"
+    ]
+  },
+  {
+    "id": "train-traffic-india-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find highway delays for india with live information in csv format.",
+    "gold_ids": [
+      "traffic__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-traffic-india-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need india highway delays; only live data, csv output.",
+    "gold_ids": [
+      "traffic__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-traffic-india-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find highway delays for india with historical information in json format.",
+    "gold_ids": [
+      "traffic__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-traffic-india-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need india highway delays; only historical data, json output.",
+    "gold_ids": [
+      "traffic__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-traffic-india-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find highway delays for india with historical information in csv format.",
+    "gold_ids": [
+      "traffic__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-traffic-india-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need india highway delays; only historical data, csv output.",
+    "gold_ids": [
+      "traffic__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-traffic-global-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Find highway delays for global with live information in json format.",
+    "gold_ids": [
+      "traffic__global__live__json"
+    ]
+  },
+  {
+    "id": "train-traffic-global-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "I need global highway delays; only live data, json output.",
+    "gold_ids": [
+      "traffic__global__live__json"
+    ]
+  },
+  {
+    "id": "train-traffic-global-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find highway delays for global with live information in csv format.",
+    "gold_ids": [
+      "traffic__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-traffic-global-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need global highway delays; only live data, csv output.",
+    "gold_ids": [
+      "traffic__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-traffic-global-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find highway delays for global with historical information in json format.",
+    "gold_ids": [
+      "traffic__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-traffic-global-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need global highway delays; only historical data, json output.",
+    "gold_ids": [
+      "traffic__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-traffic-global-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find highway delays for global with historical information in csv format.",
+    "gold_ids": [
+      "traffic__global__historical__csv"
+    ]
+  },
+  {
+    "id": "train-traffic-global-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need global highway delays; only historical data, csv output.",
+    "gold_ids": [
+      "traffic__global__historical__csv"
+    ]
+  },
+  {
+    "id": "train-hotels-india-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Find lodging availability for india with live information in json format.",
+    "gold_ids": [
+      "hotels__india__live__json"
+    ]
+  },
+  {
+    "id": "train-hotels-india-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "I need india lodging availability; only live data, json output.",
+    "gold_ids": [
+      "hotels__india__live__json"
+    ]
+  },
+  {
+    "id": "train-hotels-india-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find lodging availability for india with live information in csv format.",
+    "gold_ids": [
+      "hotels__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-hotels-india-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need india lodging availability; only live data, csv output.",
+    "gold_ids": [
+      "hotels__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-hotels-india-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find lodging availability for india with historical information in json format.",
+    "gold_ids": [
+      "hotels__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-hotels-india-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need india lodging availability; only historical data, json output.",
+    "gold_ids": [
+      "hotels__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-hotels-india-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find lodging availability for india with historical information in csv format.",
+    "gold_ids": [
+      "hotels__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-hotels-india-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need india lodging availability; only historical data, csv output.",
+    "gold_ids": [
+      "hotels__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-hotels-global-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Find lodging availability for global with live information in json format.",
+    "gold_ids": [
+      "hotels__global__live__json"
+    ]
+  },
+  {
+    "id": "train-hotels-global-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "I need global lodging availability; only live data, json output.",
+    "gold_ids": [
+      "hotels__global__live__json"
+    ]
+  },
+  {
+    "id": "train-hotels-global-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find lodging availability for global with live information in csv format.",
+    "gold_ids": [
+      "hotels__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-hotels-global-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need global lodging availability; only live data, csv output.",
+    "gold_ids": [
+      "hotels__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-hotels-global-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find lodging availability for global with historical information in json format.",
+    "gold_ids": [
+      "hotels__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-hotels-global-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need global lodging availability; only historical data, json output.",
+    "gold_ids": [
+      "hotels__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-hotels-global-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find lodging availability for global with historical information in csv format.",
+    "gold_ids": [
+      "hotels__global__historical__csv"
+    ]
+  },
+  {
+    "id": "train-hotels-global-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need global lodging availability; only historical data, csv output.",
+    "gold_ids": [
+      "hotels__global__historical__csv"
+    ]
+  },
+  {
+    "id": "train-shopping-india-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Find item listings for india with live information in json format.",
+    "gold_ids": [
+      "shopping__india__live__json"
+    ]
+  },
+  {
+    "id": "train-shopping-india-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "I need india item listings; only live data, json output.",
+    "gold_ids": [
+      "shopping__india__live__json"
+    ]
+  },
+  {
+    "id": "train-shopping-india-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find item listings for india with live information in csv format.",
+    "gold_ids": [
+      "shopping__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-shopping-india-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need india item listings; only live data, csv output.",
+    "gold_ids": [
+      "shopping__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-shopping-india-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find item listings for india with historical information in json format.",
+    "gold_ids": [
+      "shopping__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-shopping-india-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need india item listings; only historical data, json output.",
+    "gold_ids": [
+      "shopping__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-shopping-india-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find item listings for india with historical information in csv format.",
+    "gold_ids": [
+      "shopping__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-shopping-india-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need india item listings; only historical data, csv output.",
+    "gold_ids": [
+      "shopping__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-shopping-global-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Find item listings for global with live information in json format.",
+    "gold_ids": [
+      "shopping__global__live__json"
+    ]
+  },
+  {
+    "id": "train-shopping-global-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "I need global item listings; only live data, json output.",
+    "gold_ids": [
+      "shopping__global__live__json"
+    ]
+  },
+  {
+    "id": "train-shopping-global-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find item listings for global with live information in csv format.",
+    "gold_ids": [
+      "shopping__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-shopping-global-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need global item listings; only live data, csv output.",
+    "gold_ids": [
+      "shopping__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-shopping-global-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find item listings for global with historical information in json format.",
+    "gold_ids": [
+      "shopping__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-shopping-global-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need global item listings; only historical data, json output.",
+    "gold_ids": [
+      "shopping__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-shopping-global-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find item listings for global with historical information in csv format.",
+    "gold_ids": [
+      "shopping__global__historical__csv"
+    ]
+  },
+  {
+    "id": "train-shopping-global-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need global item listings; only historical data, csv output.",
+    "gold_ids": [
+      "shopping__global__historical__csv"
+    ]
+  },
+  {
+    "id": "train-health-india-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Find hospital listings for india with live information in json format.",
+    "gold_ids": [
+      "health__india__live__json"
+    ]
+  },
+  {
+    "id": "train-health-india-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "I need india hospital listings; only live data, json output.",
+    "gold_ids": [
+      "health__india__live__json"
+    ]
+  },
+  {
+    "id": "train-health-india-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find hospital listings for india with live information in csv format.",
+    "gold_ids": [
+      "health__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-health-india-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need india hospital listings; only live data, csv output.",
+    "gold_ids": [
+      "health__india__live__csv"
+    ]
+  },
+  {
+    "id": "train-health-india-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find hospital listings for india with historical information in json format.",
+    "gold_ids": [
+      "health__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-health-india-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need india hospital listings; only historical data, json output.",
+    "gold_ids": [
+      "health__india__historical__json"
+    ]
+  },
+  {
+    "id": "train-health-india-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find hospital listings for india with historical information in csv format.",
+    "gold_ids": [
+      "health__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-health-india-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need india hospital listings; only historical data, csv output.",
+    "gold_ids": [
+      "health__india__historical__csv"
+    ]
+  },
+  {
+    "id": "train-health-global-live-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "health",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Find hospital listings for global with live information in json format.",
+    "gold_ids": [
+      "health__global__live__json"
+    ]
+  },
+  {
+    "id": "train-health-global-live-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "health",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "I need global hospital listings; only live data, json output.",
+    "gold_ids": [
+      "health__global__live__json"
+    ]
+  },
+  {
+    "id": "train-health-global-live-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "health",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Find hospital listings for global with live information in csv format.",
+    "gold_ids": [
+      "health__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-health-global-live-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "health",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "I need global hospital listings; only live data, csv output.",
+    "gold_ids": [
+      "health__global__live__csv"
+    ]
+  },
+  {
+    "id": "train-health-global-historical-json-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "health",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Find hospital listings for global with historical information in json format.",
+    "gold_ids": [
+      "health__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-health-global-historical-json-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "health",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "I need global hospital listings; only historical data, json output.",
+    "gold_ids": [
+      "health__global__historical__json"
+    ]
+  },
+  {
+    "id": "train-health-global-historical-csv-0",
+    "split": "train",
+    "condition": "valid",
+    "domain": "health",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Find hospital listings for global with historical information in csv format.",
+    "gold_ids": [
+      "health__global__historical__csv"
+    ]
+  },
+  {
+    "id": "train-health-global-historical-csv-1",
+    "split": "train",
+    "condition": "valid",
+    "domain": "health",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "I need global hospital listings; only historical data, csv output.",
+    "gold_ids": [
+      "health__global__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-weather-india-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying temperature and rain, area india, timing live.",
+    "gold_ids": [
+      "weather__india__live__json"
+    ]
+  },
+  {
+    "id": "dev-weather-india-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying temperature and rain, area india, timing live.",
+    "gold_ids": [
+      "weather__india__live__csv"
+    ]
+  },
+  {
+    "id": "dev-weather-india-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying temperature and rain, area india, timing historical.",
+    "gold_ids": [
+      "weather__india__historical__json"
+    ]
+  },
+  {
+    "id": "dev-weather-india-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying temperature and rain, area india, timing historical.",
+    "gold_ids": [
+      "weather__india__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-weather-global-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying temperature and rain, area global, timing live.",
+    "gold_ids": [
+      "weather__global__live__json"
+    ]
+  },
+  {
+    "id": "dev-weather-global-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying temperature and rain, area global, timing live.",
+    "gold_ids": [
+      "weather__global__live__csv"
+    ]
+  },
+  {
+    "id": "dev-weather-global-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying temperature and rain, area global, timing historical.",
+    "gold_ids": [
+      "weather__global__historical__json"
+    ]
+  },
+  {
+    "id": "dev-weather-global-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying temperature and rain, area global, timing historical.",
+    "gold_ids": [
+      "weather__global__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-weather-invalid-xml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for temperature and rain in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "dev-weather-invalid-yaml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for temperature and rain in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "dev-currency-india-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying forex quotes, area india, timing live.",
+    "gold_ids": [
+      "currency__india__live__json"
+    ]
+  },
+  {
+    "id": "dev-currency-india-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying forex quotes, area india, timing live.",
+    "gold_ids": [
+      "currency__india__live__csv"
+    ]
+  },
+  {
+    "id": "dev-currency-india-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying forex quotes, area india, timing historical.",
+    "gold_ids": [
+      "currency__india__historical__json"
+    ]
+  },
+  {
+    "id": "dev-currency-india-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying forex quotes, area india, timing historical.",
+    "gold_ids": [
+      "currency__india__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-currency-global-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying forex quotes, area global, timing live.",
+    "gold_ids": [
+      "currency__global__live__json"
+    ]
+  },
+  {
+    "id": "dev-currency-global-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying forex quotes, area global, timing live.",
+    "gold_ids": [
+      "currency__global__live__csv"
+    ]
+  },
+  {
+    "id": "dev-currency-global-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying forex quotes, area global, timing historical.",
+    "gold_ids": [
+      "currency__global__historical__json"
+    ]
+  },
+  {
+    "id": "dev-currency-global-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying forex quotes, area global, timing historical.",
+    "gold_ids": [
+      "currency__global__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-currency-invalid-xml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for forex quotes in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "dev-currency-invalid-yaml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for forex quotes in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "dev-maps-india-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying travel navigation, area india, timing live.",
+    "gold_ids": [
+      "maps__india__live__json"
+    ]
+  },
+  {
+    "id": "dev-maps-india-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying travel navigation, area india, timing live.",
+    "gold_ids": [
+      "maps__india__live__csv"
+    ]
+  },
+  {
+    "id": "dev-maps-india-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying travel navigation, area india, timing historical.",
+    "gold_ids": [
+      "maps__india__historical__json"
+    ]
+  },
+  {
+    "id": "dev-maps-india-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying travel navigation, area india, timing historical.",
+    "gold_ids": [
+      "maps__india__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-maps-global-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying travel navigation, area global, timing live.",
+    "gold_ids": [
+      "maps__global__live__json"
+    ]
+  },
+  {
+    "id": "dev-maps-global-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying travel navigation, area global, timing live.",
+    "gold_ids": [
+      "maps__global__live__csv"
+    ]
+  },
+  {
+    "id": "dev-maps-global-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying travel navigation, area global, timing historical.",
+    "gold_ids": [
+      "maps__global__historical__json"
+    ]
+  },
+  {
+    "id": "dev-maps-global-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying travel navigation, area global, timing historical.",
+    "gold_ids": [
+      "maps__global__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-maps-invalid-xml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for travel navigation in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "dev-maps-invalid-yaml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for travel navigation in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "dev-news-india-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying press headlines, area india, timing live.",
+    "gold_ids": [
+      "news__india__live__json"
+    ]
+  },
+  {
+    "id": "dev-news-india-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying press headlines, area india, timing live.",
+    "gold_ids": [
+      "news__india__live__csv"
+    ]
+  },
+  {
+    "id": "dev-news-india-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying press headlines, area india, timing historical.",
+    "gold_ids": [
+      "news__india__historical__json"
+    ]
+  },
+  {
+    "id": "dev-news-india-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying press headlines, area india, timing historical.",
+    "gold_ids": [
+      "news__india__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-news-global-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "news",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying press headlines, area global, timing live.",
+    "gold_ids": [
+      "news__global__live__json"
+    ]
+  },
+  {
+    "id": "dev-news-global-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "news",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying press headlines, area global, timing live.",
+    "gold_ids": [
+      "news__global__live__csv"
+    ]
+  },
+  {
+    "id": "dev-news-global-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "news",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying press headlines, area global, timing historical.",
+    "gold_ids": [
+      "news__global__historical__json"
+    ]
+  },
+  {
+    "id": "dev-news-global-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "news",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying press headlines, area global, timing historical.",
+    "gold_ids": [
+      "news__global__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-news-invalid-xml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for press headlines in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "dev-news-invalid-yaml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for press headlines in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "dev-translation-india-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying translate sentences, area india, timing live.",
+    "gold_ids": [
+      "translation__india__live__json"
+    ]
+  },
+  {
+    "id": "dev-translation-india-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying translate sentences, area india, timing live.",
+    "gold_ids": [
+      "translation__india__live__csv"
+    ]
+  },
+  {
+    "id": "dev-translation-india-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying translate sentences, area india, timing historical.",
+    "gold_ids": [
+      "translation__india__historical__json"
+    ]
+  },
+  {
+    "id": "dev-translation-india-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying translate sentences, area india, timing historical.",
+    "gold_ids": [
+      "translation__india__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-translation-global-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying translate sentences, area global, timing live.",
+    "gold_ids": [
+      "translation__global__live__json"
+    ]
+  },
+  {
+    "id": "dev-translation-global-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying translate sentences, area global, timing live.",
+    "gold_ids": [
+      "translation__global__live__csv"
+    ]
+  },
+  {
+    "id": "dev-translation-global-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying translate sentences, area global, timing historical.",
+    "gold_ids": [
+      "translation__global__historical__json"
+    ]
+  },
+  {
+    "id": "dev-translation-global-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying translate sentences, area global, timing historical.",
+    "gold_ids": [
+      "translation__global__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-translation-invalid-xml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for translate sentences in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "dev-translation-invalid-yaml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for translate sentences in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "dev-stocks-india-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying equities trading quotes, area india, timing live.",
+    "gold_ids": [
+      "stocks__india__live__json"
+    ]
+  },
+  {
+    "id": "dev-stocks-india-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying equities trading quotes, area india, timing live.",
+    "gold_ids": [
+      "stocks__india__live__csv"
+    ]
+  },
+  {
+    "id": "dev-stocks-india-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying equities trading quotes, area india, timing historical.",
+    "gold_ids": [
+      "stocks__india__historical__json"
+    ]
+  },
+  {
+    "id": "dev-stocks-india-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying equities trading quotes, area india, timing historical.",
+    "gold_ids": [
+      "stocks__india__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-stocks-global-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying equities trading quotes, area global, timing live.",
+    "gold_ids": [
+      "stocks__global__live__json"
+    ]
+  },
+  {
+    "id": "dev-stocks-global-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying equities trading quotes, area global, timing live.",
+    "gold_ids": [
+      "stocks__global__live__csv"
+    ]
+  },
+  {
+    "id": "dev-stocks-global-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying equities trading quotes, area global, timing historical.",
+    "gold_ids": [
+      "stocks__global__historical__json"
+    ]
+  },
+  {
+    "id": "dev-stocks-global-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying equities trading quotes, area global, timing historical.",
+    "gold_ids": [
+      "stocks__global__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-stocks-invalid-xml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for equities trading quotes in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "dev-stocks-invalid-yaml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for equities trading quotes in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "dev-sports-india-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying game results, area india, timing live.",
+    "gold_ids": [
+      "sports__india__live__json"
+    ]
+  },
+  {
+    "id": "dev-sports-india-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying game results, area india, timing live.",
+    "gold_ids": [
+      "sports__india__live__csv"
+    ]
+  },
+  {
+    "id": "dev-sports-india-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying game results, area india, timing historical.",
+    "gold_ids": [
+      "sports__india__historical__json"
+    ]
+  },
+  {
+    "id": "dev-sports-india-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying game results, area india, timing historical.",
+    "gold_ids": [
+      "sports__india__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-sports-global-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying game results, area global, timing live.",
+    "gold_ids": [
+      "sports__global__live__json"
+    ]
+  },
+  {
+    "id": "dev-sports-global-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying game results, area global, timing live.",
+    "gold_ids": [
+      "sports__global__live__csv"
+    ]
+  },
+  {
+    "id": "dev-sports-global-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying game results, area global, timing historical.",
+    "gold_ids": [
+      "sports__global__historical__json"
+    ]
+  },
+  {
+    "id": "dev-sports-global-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying game results, area global, timing historical.",
+    "gold_ids": [
+      "sports__global__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-sports-invalid-xml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for game results in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "dev-sports-invalid-yaml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for game results in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "dev-flights-india-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying flight movements, area india, timing live.",
+    "gold_ids": [
+      "flights__india__live__json"
+    ]
+  },
+  {
+    "id": "dev-flights-india-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying flight movements, area india, timing live.",
+    "gold_ids": [
+      "flights__india__live__csv"
+    ]
+  },
+  {
+    "id": "dev-flights-india-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying flight movements, area india, timing historical.",
+    "gold_ids": [
+      "flights__india__historical__json"
+    ]
+  },
+  {
+    "id": "dev-flights-india-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying flight movements, area india, timing historical.",
+    "gold_ids": [
+      "flights__india__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-flights-global-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying flight movements, area global, timing live.",
+    "gold_ids": [
+      "flights__global__live__json"
+    ]
+  },
+  {
+    "id": "dev-flights-global-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying flight movements, area global, timing live.",
+    "gold_ids": [
+      "flights__global__live__csv"
+    ]
+  },
+  {
+    "id": "dev-flights-global-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying flight movements, area global, timing historical.",
+    "gold_ids": [
+      "flights__global__historical__json"
+    ]
+  },
+  {
+    "id": "dev-flights-global-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying flight movements, area global, timing historical.",
+    "gold_ids": [
+      "flights__global__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-flights-invalid-xml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for flight movements in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "dev-flights-invalid-yaml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for flight movements in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "dev-traffic-india-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying road congestion, area india, timing live.",
+    "gold_ids": [
+      "traffic__india__live__json"
+    ]
+  },
+  {
+    "id": "dev-traffic-india-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying road congestion, area india, timing live.",
+    "gold_ids": [
+      "traffic__india__live__csv"
+    ]
+  },
+  {
+    "id": "dev-traffic-india-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying road congestion, area india, timing historical.",
+    "gold_ids": [
+      "traffic__india__historical__json"
+    ]
+  },
+  {
+    "id": "dev-traffic-india-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying road congestion, area india, timing historical.",
+    "gold_ids": [
+      "traffic__india__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-traffic-global-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying road congestion, area global, timing live.",
+    "gold_ids": [
+      "traffic__global__live__json"
+    ]
+  },
+  {
+    "id": "dev-traffic-global-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying road congestion, area global, timing live.",
+    "gold_ids": [
+      "traffic__global__live__csv"
+    ]
+  },
+  {
+    "id": "dev-traffic-global-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying road congestion, area global, timing historical.",
+    "gold_ids": [
+      "traffic__global__historical__json"
+    ]
+  },
+  {
+    "id": "dev-traffic-global-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying road congestion, area global, timing historical.",
+    "gold_ids": [
+      "traffic__global__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-traffic-invalid-xml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for road congestion in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "dev-traffic-invalid-yaml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for road congestion in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "dev-hotels-india-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying room vacancy, area india, timing live.",
+    "gold_ids": [
+      "hotels__india__live__json"
+    ]
+  },
+  {
+    "id": "dev-hotels-india-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying room vacancy, area india, timing live.",
+    "gold_ids": [
+      "hotels__india__live__csv"
+    ]
+  },
+  {
+    "id": "dev-hotels-india-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying room vacancy, area india, timing historical.",
+    "gold_ids": [
+      "hotels__india__historical__json"
+    ]
+  },
+  {
+    "id": "dev-hotels-india-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying room vacancy, area india, timing historical.",
+    "gold_ids": [
+      "hotels__india__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-hotels-global-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying room vacancy, area global, timing live.",
+    "gold_ids": [
+      "hotels__global__live__json"
+    ]
+  },
+  {
+    "id": "dev-hotels-global-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying room vacancy, area global, timing live.",
+    "gold_ids": [
+      "hotels__global__live__csv"
+    ]
+  },
+  {
+    "id": "dev-hotels-global-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying room vacancy, area global, timing historical.",
+    "gold_ids": [
+      "hotels__global__historical__json"
+    ]
+  },
+  {
+    "id": "dev-hotels-global-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying room vacancy, area global, timing historical.",
+    "gold_ids": [
+      "hotels__global__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-hotels-invalid-xml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for room vacancy in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "dev-hotels-invalid-yaml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for room vacancy in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "dev-shopping-india-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying consumer goods, area india, timing live.",
+    "gold_ids": [
+      "shopping__india__live__json"
+    ]
+  },
+  {
+    "id": "dev-shopping-india-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying consumer goods, area india, timing live.",
+    "gold_ids": [
+      "shopping__india__live__csv"
+    ]
+  },
+  {
+    "id": "dev-shopping-india-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying consumer goods, area india, timing historical.",
+    "gold_ids": [
+      "shopping__india__historical__json"
+    ]
+  },
+  {
+    "id": "dev-shopping-india-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying consumer goods, area india, timing historical.",
+    "gold_ids": [
+      "shopping__india__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-shopping-global-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying consumer goods, area global, timing live.",
+    "gold_ids": [
+      "shopping__global__live__json"
+    ]
+  },
+  {
+    "id": "dev-shopping-global-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying consumer goods, area global, timing live.",
+    "gold_ids": [
+      "shopping__global__live__csv"
+    ]
+  },
+  {
+    "id": "dev-shopping-global-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying consumer goods, area global, timing historical.",
+    "gold_ids": [
+      "shopping__global__historical__json"
+    ]
+  },
+  {
+    "id": "dev-shopping-global-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying consumer goods, area global, timing historical.",
+    "gold_ids": [
+      "shopping__global__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-shopping-invalid-xml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for consumer goods in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "dev-shopping-invalid-yaml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for consumer goods in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "dev-health-india-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying clinic search, area india, timing live.",
+    "gold_ids": [
+      "health__india__live__json"
+    ]
+  },
+  {
+    "id": "dev-health-india-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying clinic search, area india, timing live.",
+    "gold_ids": [
+      "health__india__live__csv"
+    ]
+  },
+  {
+    "id": "dev-health-india-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying clinic search, area india, timing historical.",
+    "gold_ids": [
+      "health__india__historical__json"
+    ]
+  },
+  {
+    "id": "dev-health-india-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying clinic search, area india, timing historical.",
+    "gold_ids": [
+      "health__india__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-health-global-live-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "health",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying clinic search, area global, timing live.",
+    "gold_ids": [
+      "health__global__live__json"
+    ]
+  },
+  {
+    "id": "dev-health-global-live-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "health",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying clinic search, area global, timing live.",
+    "gold_ids": [
+      "health__global__live__csv"
+    ]
+  },
+  {
+    "id": "dev-health-global-historical-json-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "health",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Looking for a json endpoint supplying clinic search, area global, timing historical.",
+    "gold_ids": [
+      "health__global__historical__json"
+    ]
+  },
+  {
+    "id": "dev-health-global-historical-csv-0",
+    "split": "dev",
+    "condition": "valid",
+    "domain": "health",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Looking for a csv endpoint supplying clinic search, area global, timing historical.",
+    "gold_ids": [
+      "health__global__historical__csv"
+    ]
+  },
+  {
+    "id": "dev-health-invalid-xml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for clinic search in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "dev-health-invalid-yaml",
+    "split": "dev",
+    "condition": "no_valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for clinic search in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-weather-india-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: climate outlook. Coverage must be india; data must be live; return json.",
+    "gold_ids": [
+      "weather__india__live__json"
+    ]
+  },
+  {
+    "id": "test-weather-india-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use climate outlook in json, restricted to india and live mode.",
+    "gold_ids": [
+      "weather__india__live__json"
+    ]
+  },
+  {
+    "id": "test-weather-india-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: climate outlook. Coverage must be india; data must be live; return csv.",
+    "gold_ids": [
+      "weather__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-weather-india-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use climate outlook in csv, restricted to india and live mode.",
+    "gold_ids": [
+      "weather__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-weather-india-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: climate outlook. Coverage must be india; data must be historical; return json.",
+    "gold_ids": [
+      "weather__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-weather-india-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use climate outlook in json, restricted to india and historical mode.",
+    "gold_ids": [
+      "weather__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-weather-india-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: climate outlook. Coverage must be india; data must be historical; return csv.",
+    "gold_ids": [
+      "weather__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-weather-india-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use climate outlook in csv, restricted to india and historical mode.",
+    "gold_ids": [
+      "weather__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-weather-global-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: climate outlook. Coverage must be global; data must be live; return json.",
+    "gold_ids": [
+      "weather__global__live__json"
+    ]
+  },
+  {
+    "id": "test-weather-global-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use climate outlook in json, restricted to global and live mode.",
+    "gold_ids": [
+      "weather__global__live__json"
+    ]
+  },
+  {
+    "id": "test-weather-global-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: climate outlook. Coverage must be global; data must be live; return csv.",
+    "gold_ids": [
+      "weather__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-weather-global-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use climate outlook in csv, restricted to global and live mode.",
+    "gold_ids": [
+      "weather__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-weather-global-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: climate outlook. Coverage must be global; data must be historical; return json.",
+    "gold_ids": [
+      "weather__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-weather-global-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use climate outlook in json, restricted to global and historical mode.",
+    "gold_ids": [
+      "weather__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-weather-global-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: climate outlook. Coverage must be global; data must be historical; return csv.",
+    "gold_ids": [
+      "weather__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-weather-global-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "weather",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use climate outlook in csv, restricted to global and historical mode.",
+    "gold_ids": [
+      "weather__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-weather-invalid-xml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for temperature and rain in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-weather-invalid-yaml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "weather",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for temperature and rain in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-weather-no_tool",
+    "split": "test",
+    "condition": "no_tool",
+    "domain": "weather",
+    "region": null,
+    "mode": null,
+    "format": null,
+    "query": "Explain what weather forecasts means without using an external tool.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-currency-india-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: exchange values. Coverage must be india; data must be live; return json.",
+    "gold_ids": [
+      "currency__india__live__json"
+    ]
+  },
+  {
+    "id": "test-currency-india-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use exchange values in json, restricted to india and live mode.",
+    "gold_ids": [
+      "currency__india__live__json"
+    ]
+  },
+  {
+    "id": "test-currency-india-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: exchange values. Coverage must be india; data must be live; return csv.",
+    "gold_ids": [
+      "currency__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-currency-india-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use exchange values in csv, restricted to india and live mode.",
+    "gold_ids": [
+      "currency__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-currency-india-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: exchange values. Coverage must be india; data must be historical; return json.",
+    "gold_ids": [
+      "currency__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-currency-india-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use exchange values in json, restricted to india and historical mode.",
+    "gold_ids": [
+      "currency__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-currency-india-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: exchange values. Coverage must be india; data must be historical; return csv.",
+    "gold_ids": [
+      "currency__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-currency-india-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use exchange values in csv, restricted to india and historical mode.",
+    "gold_ids": [
+      "currency__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-currency-global-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: exchange values. Coverage must be global; data must be live; return json.",
+    "gold_ids": [
+      "currency__global__live__json"
+    ]
+  },
+  {
+    "id": "test-currency-global-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use exchange values in json, restricted to global and live mode.",
+    "gold_ids": [
+      "currency__global__live__json"
+    ]
+  },
+  {
+    "id": "test-currency-global-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: exchange values. Coverage must be global; data must be live; return csv.",
+    "gold_ids": [
+      "currency__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-currency-global-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use exchange values in csv, restricted to global and live mode.",
+    "gold_ids": [
+      "currency__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-currency-global-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: exchange values. Coverage must be global; data must be historical; return json.",
+    "gold_ids": [
+      "currency__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-currency-global-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use exchange values in json, restricted to global and historical mode.",
+    "gold_ids": [
+      "currency__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-currency-global-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: exchange values. Coverage must be global; data must be historical; return csv.",
+    "gold_ids": [
+      "currency__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-currency-global-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "currency",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use exchange values in csv, restricted to global and historical mode.",
+    "gold_ids": [
+      "currency__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-currency-invalid-xml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for forex quotes in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-currency-invalid-yaml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "currency",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for forex quotes in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-currency-no_tool",
+    "split": "test",
+    "condition": "no_tool",
+    "domain": "currency",
+    "region": null,
+    "mode": null,
+    "format": null,
+    "query": "Explain what currency exchange means without using an external tool.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-maps-india-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: road directions. Coverage must be india; data must be live; return json.",
+    "gold_ids": [
+      "maps__india__live__json"
+    ]
+  },
+  {
+    "id": "test-maps-india-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use road directions in json, restricted to india and live mode.",
+    "gold_ids": [
+      "maps__india__live__json"
+    ]
+  },
+  {
+    "id": "test-maps-india-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: road directions. Coverage must be india; data must be live; return csv.",
+    "gold_ids": [
+      "maps__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-maps-india-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use road directions in csv, restricted to india and live mode.",
+    "gold_ids": [
+      "maps__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-maps-india-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: road directions. Coverage must be india; data must be historical; return json.",
+    "gold_ids": [
+      "maps__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-maps-india-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use road directions in json, restricted to india and historical mode.",
+    "gold_ids": [
+      "maps__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-maps-india-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: road directions. Coverage must be india; data must be historical; return csv.",
+    "gold_ids": [
+      "maps__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-maps-india-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use road directions in csv, restricted to india and historical mode.",
+    "gold_ids": [
+      "maps__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-maps-global-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: road directions. Coverage must be global; data must be live; return json.",
+    "gold_ids": [
+      "maps__global__live__json"
+    ]
+  },
+  {
+    "id": "test-maps-global-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use road directions in json, restricted to global and live mode.",
+    "gold_ids": [
+      "maps__global__live__json"
+    ]
+  },
+  {
+    "id": "test-maps-global-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: road directions. Coverage must be global; data must be live; return csv.",
+    "gold_ids": [
+      "maps__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-maps-global-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use road directions in csv, restricted to global and live mode.",
+    "gold_ids": [
+      "maps__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-maps-global-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: road directions. Coverage must be global; data must be historical; return json.",
+    "gold_ids": [
+      "maps__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-maps-global-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use road directions in json, restricted to global and historical mode.",
+    "gold_ids": [
+      "maps__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-maps-global-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: road directions. Coverage must be global; data must be historical; return csv.",
+    "gold_ids": [
+      "maps__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-maps-global-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "maps",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use road directions in csv, restricted to global and historical mode.",
+    "gold_ids": [
+      "maps__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-maps-invalid-xml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for travel navigation in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-maps-invalid-yaml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "maps",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for travel navigation in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-maps-no_tool",
+    "split": "test",
+    "condition": "no_tool",
+    "domain": "maps",
+    "region": null,
+    "mode": null,
+    "format": null,
+    "query": "Explain what map directions means without using an external tool.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-news-india-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: media updates. Coverage must be india; data must be live; return json.",
+    "gold_ids": [
+      "news__india__live__json"
+    ]
+  },
+  {
+    "id": "test-news-india-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use media updates in json, restricted to india and live mode.",
+    "gold_ids": [
+      "news__india__live__json"
+    ]
+  },
+  {
+    "id": "test-news-india-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: media updates. Coverage must be india; data must be live; return csv.",
+    "gold_ids": [
+      "news__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-news-india-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use media updates in csv, restricted to india and live mode.",
+    "gold_ids": [
+      "news__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-news-india-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: media updates. Coverage must be india; data must be historical; return json.",
+    "gold_ids": [
+      "news__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-news-india-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use media updates in json, restricted to india and historical mode.",
+    "gold_ids": [
+      "news__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-news-india-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: media updates. Coverage must be india; data must be historical; return csv.",
+    "gold_ids": [
+      "news__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-news-india-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use media updates in csv, restricted to india and historical mode.",
+    "gold_ids": [
+      "news__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-news-global-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "news",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: media updates. Coverage must be global; data must be live; return json.",
+    "gold_ids": [
+      "news__global__live__json"
+    ]
+  },
+  {
+    "id": "test-news-global-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "news",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use media updates in json, restricted to global and live mode.",
+    "gold_ids": [
+      "news__global__live__json"
+    ]
+  },
+  {
+    "id": "test-news-global-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "news",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: media updates. Coverage must be global; data must be live; return csv.",
+    "gold_ids": [
+      "news__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-news-global-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "news",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use media updates in csv, restricted to global and live mode.",
+    "gold_ids": [
+      "news__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-news-global-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "news",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: media updates. Coverage must be global; data must be historical; return json.",
+    "gold_ids": [
+      "news__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-news-global-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "news",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use media updates in json, restricted to global and historical mode.",
+    "gold_ids": [
+      "news__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-news-global-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "news",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: media updates. Coverage must be global; data must be historical; return csv.",
+    "gold_ids": [
+      "news__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-news-global-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "news",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use media updates in csv, restricted to global and historical mode.",
+    "gold_ids": [
+      "news__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-news-invalid-xml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for press headlines in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-news-invalid-yaml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "news",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for press headlines in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-news-no_tool",
+    "split": "test",
+    "condition": "no_tool",
+    "domain": "news",
+    "region": null,
+    "mode": null,
+    "format": null,
+    "query": "Explain what news articles means without using an external tool.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-translation-india-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: multilingual translations. Coverage must be india; data must be live; return json.",
+    "gold_ids": [
+      "translation__india__live__json"
+    ]
+  },
+  {
+    "id": "test-translation-india-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use multilingual translations in json, restricted to india and live mode.",
+    "gold_ids": [
+      "translation__india__live__json"
+    ]
+  },
+  {
+    "id": "test-translation-india-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: multilingual translations. Coverage must be india; data must be live; return csv.",
+    "gold_ids": [
+      "translation__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-translation-india-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use multilingual translations in csv, restricted to india and live mode.",
+    "gold_ids": [
+      "translation__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-translation-india-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: multilingual translations. Coverage must be india; data must be historical; return json.",
+    "gold_ids": [
+      "translation__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-translation-india-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use multilingual translations in json, restricted to india and historical mode.",
+    "gold_ids": [
+      "translation__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-translation-india-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: multilingual translations. Coverage must be india; data must be historical; return csv.",
+    "gold_ids": [
+      "translation__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-translation-india-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use multilingual translations in csv, restricted to india and historical mode.",
+    "gold_ids": [
+      "translation__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-translation-global-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: multilingual translations. Coverage must be global; data must be live; return json.",
+    "gold_ids": [
+      "translation__global__live__json"
+    ]
+  },
+  {
+    "id": "test-translation-global-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use multilingual translations in json, restricted to global and live mode.",
+    "gold_ids": [
+      "translation__global__live__json"
+    ]
+  },
+  {
+    "id": "test-translation-global-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: multilingual translations. Coverage must be global; data must be live; return csv.",
+    "gold_ids": [
+      "translation__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-translation-global-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use multilingual translations in csv, restricted to global and live mode.",
+    "gold_ids": [
+      "translation__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-translation-global-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: multilingual translations. Coverage must be global; data must be historical; return json.",
+    "gold_ids": [
+      "translation__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-translation-global-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use multilingual translations in json, restricted to global and historical mode.",
+    "gold_ids": [
+      "translation__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-translation-global-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: multilingual translations. Coverage must be global; data must be historical; return csv.",
+    "gold_ids": [
+      "translation__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-translation-global-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "translation",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use multilingual translations in csv, restricted to global and historical mode.",
+    "gold_ids": [
+      "translation__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-translation-invalid-xml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for translate sentences in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-translation-invalid-yaml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "translation",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for translate sentences in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-translation-no_tool",
+    "split": "test",
+    "condition": "no_tool",
+    "domain": "translation",
+    "region": null,
+    "mode": null,
+    "format": null,
+    "query": "Explain what translate text means without using an external tool.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-stocks-india-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: stock market data. Coverage must be india; data must be live; return json.",
+    "gold_ids": [
+      "stocks__india__live__json"
+    ]
+  },
+  {
+    "id": "test-stocks-india-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use stock market data in json, restricted to india and live mode.",
+    "gold_ids": [
+      "stocks__india__live__json"
+    ]
+  },
+  {
+    "id": "test-stocks-india-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: stock market data. Coverage must be india; data must be live; return csv.",
+    "gold_ids": [
+      "stocks__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-stocks-india-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use stock market data in csv, restricted to india and live mode.",
+    "gold_ids": [
+      "stocks__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-stocks-india-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: stock market data. Coverage must be india; data must be historical; return json.",
+    "gold_ids": [
+      "stocks__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-stocks-india-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use stock market data in json, restricted to india and historical mode.",
+    "gold_ids": [
+      "stocks__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-stocks-india-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: stock market data. Coverage must be india; data must be historical; return csv.",
+    "gold_ids": [
+      "stocks__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-stocks-india-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use stock market data in csv, restricted to india and historical mode.",
+    "gold_ids": [
+      "stocks__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-stocks-global-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: stock market data. Coverage must be global; data must be live; return json.",
+    "gold_ids": [
+      "stocks__global__live__json"
+    ]
+  },
+  {
+    "id": "test-stocks-global-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use stock market data in json, restricted to global and live mode.",
+    "gold_ids": [
+      "stocks__global__live__json"
+    ]
+  },
+  {
+    "id": "test-stocks-global-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: stock market data. Coverage must be global; data must be live; return csv.",
+    "gold_ids": [
+      "stocks__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-stocks-global-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use stock market data in csv, restricted to global and live mode.",
+    "gold_ids": [
+      "stocks__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-stocks-global-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: stock market data. Coverage must be global; data must be historical; return json.",
+    "gold_ids": [
+      "stocks__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-stocks-global-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use stock market data in json, restricted to global and historical mode.",
+    "gold_ids": [
+      "stocks__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-stocks-global-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: stock market data. Coverage must be global; data must be historical; return csv.",
+    "gold_ids": [
+      "stocks__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-stocks-global-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use stock market data in csv, restricted to global and historical mode.",
+    "gold_ids": [
+      "stocks__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-stocks-invalid-xml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for equities trading quotes in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-stocks-invalid-yaml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for equities trading quotes in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-stocks-no_tool",
+    "split": "test",
+    "condition": "no_tool",
+    "domain": "stocks",
+    "region": null,
+    "mode": null,
+    "format": null,
+    "query": "Explain what stock prices means without using an external tool.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-sports-india-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: sports fixtures. Coverage must be india; data must be live; return json.",
+    "gold_ids": [
+      "sports__india__live__json"
+    ]
+  },
+  {
+    "id": "test-sports-india-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use sports fixtures in json, restricted to india and live mode.",
+    "gold_ids": [
+      "sports__india__live__json"
+    ]
+  },
+  {
+    "id": "test-sports-india-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: sports fixtures. Coverage must be india; data must be live; return csv.",
+    "gold_ids": [
+      "sports__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-sports-india-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use sports fixtures in csv, restricted to india and live mode.",
+    "gold_ids": [
+      "sports__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-sports-india-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: sports fixtures. Coverage must be india; data must be historical; return json.",
+    "gold_ids": [
+      "sports__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-sports-india-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use sports fixtures in json, restricted to india and historical mode.",
+    "gold_ids": [
+      "sports__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-sports-india-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: sports fixtures. Coverage must be india; data must be historical; return csv.",
+    "gold_ids": [
+      "sports__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-sports-india-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use sports fixtures in csv, restricted to india and historical mode.",
+    "gold_ids": [
+      "sports__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-sports-global-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: sports fixtures. Coverage must be global; data must be live; return json.",
+    "gold_ids": [
+      "sports__global__live__json"
+    ]
+  },
+  {
+    "id": "test-sports-global-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use sports fixtures in json, restricted to global and live mode.",
+    "gold_ids": [
+      "sports__global__live__json"
+    ]
+  },
+  {
+    "id": "test-sports-global-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: sports fixtures. Coverage must be global; data must be live; return csv.",
+    "gold_ids": [
+      "sports__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-sports-global-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use sports fixtures in csv, restricted to global and live mode.",
+    "gold_ids": [
+      "sports__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-sports-global-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: sports fixtures. Coverage must be global; data must be historical; return json.",
+    "gold_ids": [
+      "sports__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-sports-global-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use sports fixtures in json, restricted to global and historical mode.",
+    "gold_ids": [
+      "sports__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-sports-global-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: sports fixtures. Coverage must be global; data must be historical; return csv.",
+    "gold_ids": [
+      "sports__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-sports-global-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "sports",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use sports fixtures in csv, restricted to global and historical mode.",
+    "gold_ids": [
+      "sports__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-sports-invalid-xml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for game results in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-sports-invalid-yaml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "sports",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for game results in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-sports-no_tool",
+    "split": "test",
+    "condition": "no_tool",
+    "domain": "sports",
+    "region": null,
+    "mode": null,
+    "format": null,
+    "query": "Explain what sports scores means without using an external tool.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-flights-india-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: flight delays. Coverage must be india; data must be live; return json.",
+    "gold_ids": [
+      "flights__india__live__json"
+    ]
+  },
+  {
+    "id": "test-flights-india-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use flight delays in json, restricted to india and live mode.",
+    "gold_ids": [
+      "flights__india__live__json"
+    ]
+  },
+  {
+    "id": "test-flights-india-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: flight delays. Coverage must be india; data must be live; return csv.",
+    "gold_ids": [
+      "flights__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-flights-india-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use flight delays in csv, restricted to india and live mode.",
+    "gold_ids": [
+      "flights__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-flights-india-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: flight delays. Coverage must be india; data must be historical; return json.",
+    "gold_ids": [
+      "flights__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-flights-india-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use flight delays in json, restricted to india and historical mode.",
+    "gold_ids": [
+      "flights__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-flights-india-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: flight delays. Coverage must be india; data must be historical; return csv.",
+    "gold_ids": [
+      "flights__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-flights-india-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use flight delays in csv, restricted to india and historical mode.",
+    "gold_ids": [
+      "flights__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-flights-global-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: flight delays. Coverage must be global; data must be live; return json.",
+    "gold_ids": [
+      "flights__global__live__json"
+    ]
+  },
+  {
+    "id": "test-flights-global-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use flight delays in json, restricted to global and live mode.",
+    "gold_ids": [
+      "flights__global__live__json"
+    ]
+  },
+  {
+    "id": "test-flights-global-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: flight delays. Coverage must be global; data must be live; return csv.",
+    "gold_ids": [
+      "flights__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-flights-global-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use flight delays in csv, restricted to global and live mode.",
+    "gold_ids": [
+      "flights__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-flights-global-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: flight delays. Coverage must be global; data must be historical; return json.",
+    "gold_ids": [
+      "flights__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-flights-global-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use flight delays in json, restricted to global and historical mode.",
+    "gold_ids": [
+      "flights__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-flights-global-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: flight delays. Coverage must be global; data must be historical; return csv.",
+    "gold_ids": [
+      "flights__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-flights-global-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "flights",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use flight delays in csv, restricted to global and historical mode.",
+    "gold_ids": [
+      "flights__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-flights-invalid-xml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for flight movements in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-flights-invalid-yaml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "flights",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for flight movements in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-flights-no_tool",
+    "split": "test",
+    "condition": "no_tool",
+    "domain": "flights",
+    "region": null,
+    "mode": null,
+    "format": null,
+    "query": "Explain what flight status means without using an external tool.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-traffic-india-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: commute traffic. Coverage must be india; data must be live; return json.",
+    "gold_ids": [
+      "traffic__india__live__json"
+    ]
+  },
+  {
+    "id": "test-traffic-india-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use commute traffic in json, restricted to india and live mode.",
+    "gold_ids": [
+      "traffic__india__live__json"
+    ]
+  },
+  {
+    "id": "test-traffic-india-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: commute traffic. Coverage must be india; data must be live; return csv.",
+    "gold_ids": [
+      "traffic__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-traffic-india-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use commute traffic in csv, restricted to india and live mode.",
+    "gold_ids": [
+      "traffic__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-traffic-india-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: commute traffic. Coverage must be india; data must be historical; return json.",
+    "gold_ids": [
+      "traffic__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-traffic-india-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use commute traffic in json, restricted to india and historical mode.",
+    "gold_ids": [
+      "traffic__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-traffic-india-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: commute traffic. Coverage must be india; data must be historical; return csv.",
+    "gold_ids": [
+      "traffic__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-traffic-india-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use commute traffic in csv, restricted to india and historical mode.",
+    "gold_ids": [
+      "traffic__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-traffic-global-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: commute traffic. Coverage must be global; data must be live; return json.",
+    "gold_ids": [
+      "traffic__global__live__json"
+    ]
+  },
+  {
+    "id": "test-traffic-global-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use commute traffic in json, restricted to global and live mode.",
+    "gold_ids": [
+      "traffic__global__live__json"
+    ]
+  },
+  {
+    "id": "test-traffic-global-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: commute traffic. Coverage must be global; data must be live; return csv.",
+    "gold_ids": [
+      "traffic__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-traffic-global-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use commute traffic in csv, restricted to global and live mode.",
+    "gold_ids": [
+      "traffic__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-traffic-global-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: commute traffic. Coverage must be global; data must be historical; return json.",
+    "gold_ids": [
+      "traffic__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-traffic-global-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use commute traffic in json, restricted to global and historical mode.",
+    "gold_ids": [
+      "traffic__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-traffic-global-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: commute traffic. Coverage must be global; data must be historical; return csv.",
+    "gold_ids": [
+      "traffic__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-traffic-global-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use commute traffic in csv, restricted to global and historical mode.",
+    "gold_ids": [
+      "traffic__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-traffic-invalid-xml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for road congestion in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-traffic-invalid-yaml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for road congestion in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-traffic-no_tool",
+    "split": "test",
+    "condition": "no_tool",
+    "domain": "traffic",
+    "region": null,
+    "mode": null,
+    "format": null,
+    "query": "Explain what traffic congestion means without using an external tool.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-hotels-india-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: accommodation listings. Coverage must be india; data must be live; return json.",
+    "gold_ids": [
+      "hotels__india__live__json"
+    ]
+  },
+  {
+    "id": "test-hotels-india-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use accommodation listings in json, restricted to india and live mode.",
+    "gold_ids": [
+      "hotels__india__live__json"
+    ]
+  },
+  {
+    "id": "test-hotels-india-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: accommodation listings. Coverage must be india; data must be live; return csv.",
+    "gold_ids": [
+      "hotels__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-hotels-india-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use accommodation listings in csv, restricted to india and live mode.",
+    "gold_ids": [
+      "hotels__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-hotels-india-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: accommodation listings. Coverage must be india; data must be historical; return json.",
+    "gold_ids": [
+      "hotels__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-hotels-india-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use accommodation listings in json, restricted to india and historical mode.",
+    "gold_ids": [
+      "hotels__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-hotels-india-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: accommodation listings. Coverage must be india; data must be historical; return csv.",
+    "gold_ids": [
+      "hotels__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-hotels-india-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use accommodation listings in csv, restricted to india and historical mode.",
+    "gold_ids": [
+      "hotels__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-hotels-global-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: accommodation listings. Coverage must be global; data must be live; return json.",
+    "gold_ids": [
+      "hotels__global__live__json"
+    ]
+  },
+  {
+    "id": "test-hotels-global-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use accommodation listings in json, restricted to global and live mode.",
+    "gold_ids": [
+      "hotels__global__live__json"
+    ]
+  },
+  {
+    "id": "test-hotels-global-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: accommodation listings. Coverage must be global; data must be live; return csv.",
+    "gold_ids": [
+      "hotels__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-hotels-global-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use accommodation listings in csv, restricted to global and live mode.",
+    "gold_ids": [
+      "hotels__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-hotels-global-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: accommodation listings. Coverage must be global; data must be historical; return json.",
+    "gold_ids": [
+      "hotels__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-hotels-global-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use accommodation listings in json, restricted to global and historical mode.",
+    "gold_ids": [
+      "hotels__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-hotels-global-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: accommodation listings. Coverage must be global; data must be historical; return csv.",
+    "gold_ids": [
+      "hotels__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-hotels-global-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use accommodation listings in csv, restricted to global and historical mode.",
+    "gold_ids": [
+      "hotels__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-hotels-invalid-xml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for room vacancy in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-hotels-invalid-yaml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for room vacancy in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-hotels-no_tool",
+    "split": "test",
+    "condition": "no_tool",
+    "domain": "hotels",
+    "region": null,
+    "mode": null,
+    "format": null,
+    "query": "Explain what hotel bookings means without using an external tool.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-shopping-india-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: online merchandise. Coverage must be india; data must be live; return json.",
+    "gold_ids": [
+      "shopping__india__live__json"
+    ]
+  },
+  {
+    "id": "test-shopping-india-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use online merchandise in json, restricted to india and live mode.",
+    "gold_ids": [
+      "shopping__india__live__json"
+    ]
+  },
+  {
+    "id": "test-shopping-india-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: online merchandise. Coverage must be india; data must be live; return csv.",
+    "gold_ids": [
+      "shopping__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-shopping-india-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use online merchandise in csv, restricted to india and live mode.",
+    "gold_ids": [
+      "shopping__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-shopping-india-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: online merchandise. Coverage must be india; data must be historical; return json.",
+    "gold_ids": [
+      "shopping__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-shopping-india-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use online merchandise in json, restricted to india and historical mode.",
+    "gold_ids": [
+      "shopping__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-shopping-india-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: online merchandise. Coverage must be india; data must be historical; return csv.",
+    "gold_ids": [
+      "shopping__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-shopping-india-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use online merchandise in csv, restricted to india and historical mode.",
+    "gold_ids": [
+      "shopping__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-shopping-global-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: online merchandise. Coverage must be global; data must be live; return json.",
+    "gold_ids": [
+      "shopping__global__live__json"
+    ]
+  },
+  {
+    "id": "test-shopping-global-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use online merchandise in json, restricted to global and live mode.",
+    "gold_ids": [
+      "shopping__global__live__json"
+    ]
+  },
+  {
+    "id": "test-shopping-global-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: online merchandise. Coverage must be global; data must be live; return csv.",
+    "gold_ids": [
+      "shopping__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-shopping-global-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use online merchandise in csv, restricted to global and live mode.",
+    "gold_ids": [
+      "shopping__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-shopping-global-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: online merchandise. Coverage must be global; data must be historical; return json.",
+    "gold_ids": [
+      "shopping__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-shopping-global-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use online merchandise in json, restricted to global and historical mode.",
+    "gold_ids": [
+      "shopping__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-shopping-global-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: online merchandise. Coverage must be global; data must be historical; return csv.",
+    "gold_ids": [
+      "shopping__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-shopping-global-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use online merchandise in csv, restricted to global and historical mode.",
+    "gold_ids": [
+      "shopping__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-shopping-invalid-xml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for consumer goods in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-shopping-invalid-yaml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for consumer goods in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-shopping-no_tool",
+    "split": "test",
+    "condition": "no_tool",
+    "domain": "shopping",
+    "region": null,
+    "mode": null,
+    "format": null,
+    "query": "Explain what product shopping means without using an external tool.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-health-india-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: medical centers. Coverage must be india; data must be live; return json.",
+    "gold_ids": [
+      "health__india__live__json"
+    ]
+  },
+  {
+    "id": "test-health-india-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use medical centers in json, restricted to india and live mode.",
+    "gold_ids": [
+      "health__india__live__json"
+    ]
+  },
+  {
+    "id": "test-health-india-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: medical centers. Coverage must be india; data must be live; return csv.",
+    "gold_ids": [
+      "health__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-health-india-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use medical centers in csv, restricted to india and live mode.",
+    "gold_ids": [
+      "health__india__live__csv"
+    ]
+  },
+  {
+    "id": "test-health-india-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: medical centers. Coverage must be india; data must be historical; return json.",
+    "gold_ids": [
+      "health__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-health-india-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use medical centers in json, restricted to india and historical mode.",
+    "gold_ids": [
+      "health__india__historical__json"
+    ]
+  },
+  {
+    "id": "test-health-india-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: medical centers. Coverage must be india; data must be historical; return csv.",
+    "gold_ids": [
+      "health__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-health-india-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use medical centers in csv, restricted to india and historical mode.",
+    "gold_ids": [
+      "health__india__historical__csv"
+    ]
+  },
+  {
+    "id": "test-health-global-live-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "health",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "Please select a service: medical centers. Coverage must be global; data must be live; return json.",
+    "gold_ids": [
+      "health__global__live__json"
+    ]
+  },
+  {
+    "id": "test-health-global-live-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "health",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "query": "For my application, use medical centers in json, restricted to global and live mode.",
+    "gold_ids": [
+      "health__global__live__json"
+    ]
+  },
+  {
+    "id": "test-health-global-live-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "health",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "Please select a service: medical centers. Coverage must be global; data must be live; return csv.",
+    "gold_ids": [
+      "health__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-health-global-live-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "health",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "query": "For my application, use medical centers in csv, restricted to global and live mode.",
+    "gold_ids": [
+      "health__global__live__csv"
+    ]
+  },
+  {
+    "id": "test-health-global-historical-json-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "health",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "Please select a service: medical centers. Coverage must be global; data must be historical; return json.",
+    "gold_ids": [
+      "health__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-health-global-historical-json-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "health",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "query": "For my application, use medical centers in json, restricted to global and historical mode.",
+    "gold_ids": [
+      "health__global__historical__json"
+    ]
+  },
+  {
+    "id": "test-health-global-historical-csv-0",
+    "split": "test",
+    "condition": "valid",
+    "domain": "health",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "Please select a service: medical centers. Coverage must be global; data must be historical; return csv.",
+    "gold_ids": [
+      "health__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-health-global-historical-csv-1",
+    "split": "test",
+    "condition": "valid",
+    "domain": "health",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "query": "For my application, use medical centers in csv, restricted to global and historical mode.",
+    "gold_ids": [
+      "health__global__historical__csv"
+    ]
+  },
+  {
+    "id": "test-health-invalid-xml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "live",
+    "format": "xml",
+    "query": "Select a xml service for clinic search in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-health-invalid-yaml",
+    "split": "test",
+    "condition": "no_valid",
+    "domain": "health",
+    "region": "india",
+    "mode": "live",
+    "format": "yaml",
+    "query": "Select a yaml service for clinic search in india with live updates.",
+    "gold_ids": []
+  },
+  {
+    "id": "test-health-no_tool",
+    "split": "test",
+    "condition": "no_tool",
+    "domain": "health",
+    "region": null,
+    "mode": null,
+    "format": null,
+    "query": "Explain what find clinics means without using an external tool.",
+    "gold_ids": []
+  }
+]

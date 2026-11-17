@@ -1,0 +1,13 @@
+test_01_unique_gold (test_benchmark.BenchmarkTests.test_01_unique_gold) ... ok
+test_02_counts (test_benchmark.BenchmarkTests.test_02_counts) ... ok
+test_03_no_tool (test_benchmark.BenchmarkTests.test_03_no_tool) ... ok
+test_04_impossible_tool (test_benchmark.BenchmarkTests.test_04_impossible_tool) ... ok
+test_05_valid_selection (test_benchmark.BenchmarkTests.test_05_valid_selection) ... ok
+test_06_determinism (test_benchmark.BenchmarkTests.test_06_determinism) ... ok
+test_07_perturbation_metadata (test_benchmark.BenchmarkTests.test_07_perturbation_metadata) ... ok
+test_08_bootstrap_zero (test_benchmark.BenchmarkTests.test_08_bootstrap_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.033s
+
+OK

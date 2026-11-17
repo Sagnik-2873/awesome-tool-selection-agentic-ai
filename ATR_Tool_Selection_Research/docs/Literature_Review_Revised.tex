@@ -1,0 +1,173 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=0.85in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,amsmath,amssymb,booktabs,tabularx,array,enumitem,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=blue!45!black,linkcolor=black,citecolor=blue!45!black}
+\setlength{\parskip}{4pt}\setlength{\parindent}{13pt}
+\title{Evaluating Tool-Selection Accuracy in Multi-Tool Agentic AI Systems\\\large A Critical Review of Metrics, Benchmarks, and Research Challenges}
+\author{Sagnik Dutta\\\small Indian Institute of Information Technology, Allahabad\\\small M.Tech. in IT, Cyber Laws and Information Security}
+\date{November 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+A tool-using language model can produce an entirely valid API call and still choose the wrong service. It can also choose the right service, fail when supplying arguments, and receive a poor end-to-end score. These cases matter for different reasons, yet tool-use evaluations often combine them. This review examines how tool selection is handled in major agent and API benchmarks, from ReAct and Toolformer to ToolLLM, Gorilla, ToolSandbox, and $\tau$-bench. It separates the initial decision to act from identifying a suitable tool, satisfying its schema, executing it, and selecting subsequent actions. The discussion focuses on the difficult cases: overlapping APIs, justified abstention, changing documentation, state-dependent choices, and tasks with more than one acceptable solution. A practical reporting framework is proposed that includes functional validity, necessity decisions, retrieval quality, execution and sequence outcomes, robustness, and operational cost. The central conclusion is methodological: evaluating a tool-using agent requires more than checking whether its final answer was correct or whether it called an expected function name. The review identifies questions that remain worth testing and distinguishes proposals for future experiments from results already established in the literature.
+\end{abstract}
+\noindent\textbf{Keywords:} tool selection; tool-augmented language models; agent evaluation; function calling; API retrieval; abstention; reproducibility.
+\section{Introduction}
+An assistant asked for yesterday's exchange rate should probably consult a source that records historical rates. A live conversion endpoint may return a perfectly valid response, but it may answer a different question. An equally important mistake occurs when the assistant calls an API to solve something that could have been answered directly. Such examples are easy to describe and surprisingly difficult to score consistently.
+
+The increasing use of external tools has made this distinction relevant to practical agent systems. A language model may be able to search, browse, calculate, inspect a database, or perform actions through an enterprise service. Its task is no longer limited to producing text. It must decide whether an external action is appropriate, determine which service can satisfy the request, supply suitable inputs, and make sense of the response. The choices interact, but they are not identical capabilities.
+
+ReAct demonstrated that language-model reasoning can be interleaved with external actions and observations~\cite{react}. Toolformer showed a different route: a model may learn when and how to use APIs within the generation process~\cite{toolformer}. Later work scaled the number and diversity of candidate tools. ToolBench collected 16,464 APIs in 49 categories~\cite{toolllm}, while Gorilla investigated API-call generation with retriever-supported access to changing documentation~\cite{gorilla}. Once several tools provide related functions, a benchmark must decide what counts as a correct selection.
+
+This review asks a narrow question: \emph{how can the correctness of tool choice be measured without losing sight of the rest of the agent workflow?} The aim is to consolidate evaluation practice and set out a diagnostic framework. It is not a report of newly executed model experiments. Published findings are attributed to the original studies; proposed metrics and examples are analytical suggestions.
+
+\section{From tool use to tool choice}
+\subsection{Tool invocation in early agent systems}
+ReAct places tool invocation within an iterative process: the model acts, receives an observation, and decides what to do next~\cite{react}. In such a setting, a tool choice is judged partly by what the action contributes to the current goal. Toolformer instead frames API calls as decisions the model may learn to insert while generating text~\cite{toolformer}. Both approaches expose the question of whether a tool should be called. Neither makes the presence of a syntactically correct call sufficient evidence that the tool was useful.
+
+API-Bank provided a more explicit API-centered evaluation, with executable services, annotated dialogues and calls that exercise retrieval, planning and invocation~\cite{apibank}. ToolQA considered question-answering tasks in which external tools may be essential to reaching the answer~\cite{toolqa}. These benchmarks point toward a distinction between \emph{finding a relevant capability} and \emph{knowing whether external information is necessary}.
+
+\subsection{Larger and changing tool collections}
+Selecting a tool from a list of five is not the same problem as searching across thousands. ToolLLM combines training data, tool retrieval and multi-step reasoning for a large API inventory~\cite{toolllm}. Gorilla connects a model to API information through retrieval, addressing the practical problem that descriptions and versions can change~\cite{gorilla}. In both cases retrieval is useful, but retrieval quality alone is not a complete measure of action correctness. A retrieved API may be related to the user's request and still fail a required constraint.
+
+There is also a difference between two kinds of overlap. Two services may be functionally interchangeable for a particular request, or they may merely sound alike. Consider a pair of map APIs: both may offer directions, but only one may cover the requested country or return the required output format. Counting the more familiar API as correct because its name matches the request would give a misleading score.
+
+\subsection{Interactive and stateful evaluation}
+As evaluation moves beyond isolated function calls, the unit of analysis becomes less obvious. AgentBench spans multiple interactive environments~\cite{agentbench}. WebArena uses realistic websites and long-horizon objectives; its original results illustrate how far agent performance can fall short of reliable task completion~\cite{webarena}. AgentBoard argues for examining progress during a trajectory rather than relying exclusively on final task success~\cite{agentboard}.
+
+ToolSandbox evaluates stateful, conversational tool interactions and dependencies among actions~\cite{toolsandbox}. $\tau$-bench measures tool-agent-user interaction and repeated-trial reliability~\cite{taubench}. These settings are valuable because a previously correct tool can become inappropriate after an earlier action changes the environment. They also make diagnosis harder: an unsuccessful task might result from poor initial selection, malformed arguments, a bad intermediate plan, or a failure to recover.
+
+\section{Defining selection accuracy}
+Let $x$ be a user request, $T$ the available catalog and $V(x,T)$ the set of tools that can satisfy the relevant request constraints. For a selector $f$, a simple functional selection score is
+\begin{equation}
+ A_{\mathrm{valid}}=\frac{1}{N}\sum_{i=1}^{N}\mathbf{1}\big[f(x_i,T_i)\in V(x_i,T_i)\big].
+\end{equation}
+Here $V$ is a \emph{set}, not necessarily one canonical tool identifier. This matters when several services are genuinely acceptable. Conversely, a tool should not be treated as valid merely because it performs a similar broad operation. Availability, permissions, coverage, output requirements, cost constraints and freshness can rule it out.
+
+The formulation needs a special decision for cases where no external tool should be used or no available tool is suitable. Write $\bot$ for abstention, and define the admissible decision set as $V(x,T)=\{\bot\}$ in those cases. The evaluation must nevertheless distinguish \emph{no tool needed} from \emph{no suitable tool available}: an agent that refrains from an unnecessary search has made a different judgment from an agent that correctly reports missing capability.
+
+Selection accuracy becomes more informative when placed alongside adjacent measurements. Table~\ref{tab:dimensions} lists the main boundaries.
+\begin{table}[ht]
+\centering\small
+\caption{Different decisions hidden within a single ``tool-use success'' score.}\label{tab:dimensions}
+\begin{tabularx}{\linewidth}{@{}p{.29\linewidth}X@{}}
+\toprule
+Dimension & Question answered by the metric\\\midrule
+Necessity or abstention & Was external action warranted, and was an eligible tool available?\\
+Tool identification & Was the selected capability suitable for the request?\\
+Argument validity & Were parameters syntactically and semantically admissible?\\
+Execution outcome & Did the call produce the required data or state change?\\
+Sequence choice & Were the chosen tools appropriate at each dependent step?\\
+Recovery & Did the agent respond appropriately after an error or unexpected observation?\\\bottomrule
+\end{tabularx}
+\end{table}
+
+For example, suppose a request asks for a historical conversion. An agent may choose an exchange-rate service correctly, then pass an invalid currency code. If it retries with a valid code and finally answers, both the initial selection and the recovery deserve credit, while the argument error should still be recorded. A single binary end-to-end outcome cannot capture that story.
+
+\section{Where selection fails}
+\subsection{Wrong or unnecessary invocation}
+Wrong-tool selection is the most visible error: the chosen service cannot complete the requested operation. Tool overuse is less conspicuous, because the call may return something useful despite being unnecessary. SMART focuses specifically on reducing unnecessary calls~\cite{smart}. Underuse is the opposite: the agent tries to answer without consulting information or performing an action that is actually required. A serious benchmark needs both positive and negative necessity examples, not just a collection of questions paired with function names.
+
+\subsection{Near-duplicates and metadata}
+Large catalogs are rarely cleanly partitioned. Services may share keywords while differing in region, authorization, freshness, supported parameters or output type. A name-based or lexical matcher may choose a service that appears relevant but fails one of these conditions. This failure is especially easy to hide when the evaluation uses a single annotated API identifier rather than a verified set of acceptable services.
+
+Descriptions themselves create another source of variation. Technical documentation differs in style and completeness. A long, persuasive description can attract a model's attention without making its API more suitable. Therefore, description perturbations should preserve the actual capabilities of a tool, and evaluations should check that the underlying task labels have not been changed accidentally.
+
+\subsection{Multi-step and state-dependent decisions}
+A first tool call may be correct but the next one may not be. If a booking workflow requires checking availability before confirming a reservation, the validity of the confirmation step depends on earlier state. ToolSandbox makes such dependencies explicit in its evaluation environment~\cite{toolsandbox}. For this reason, static top-1 choice is only one layer of a complete agent assessment. Useful trajectory diagnostics include first-action validity, valid-prefix length, the proportion of valid intermediate actions, and final completion.
+
+\section{What existing benchmarks measure}
+Table~\ref{tab:bench} contrasts prominent evaluation settings. The labels describe their broad emphasis, not a definitive ranking of their scientific quality.
+\begin{table}[ht]
+\centering\scriptsize
+\caption{Selected evaluation approaches and their relevance to tool-choice diagnosis.}\label{tab:bench}
+\begin{tabularx}{\linewidth}{@{}p{.21\linewidth}p{.32\linewidth}X@{}}
+\toprule
+Study & Evaluation setting & Main diagnostic caution\\\midrule
+API-Bank~\cite{apibank} & API retrieval and executable calls & Constrained services do not cover every changing deployment environment.\\
+ToolLLM/ToolBench~\cite{toolllm} & Large API catalog, generated instructions and trajectories & Automatically generated tasks may contain construction artifacts.\\
+Gorilla~\cite{gorilla} & API-call generation with changing documentation & Retrieval or valid syntax does not establish end-to-end correctness.\\
+WebArena~\cite{webarena} & Interactive websites and long-horizon objectives & Final success can obscure the first failure in an action sequence.\\
+ToolSandbox~\cite{toolsandbox} & Stateful conversations and dependent calls & State and planning can confound selection-only measurements.\\
+$\tau$-bench~\cite{taubench} & User--agent--tool dialogue and repeated trials & Reliability is broader than choosing the next function.\\
+Live API-Bench~\cite{liveapibench} & Diverse realistic API calls and multi-step tasks & Live behavior improves realism but introduces execution variability.\\\bottomrule
+\end{tabularx}
+\end{table}
+
+The trade-off is not between a ``good'' benchmark and a ``bad'' one. Controlled tool catalogs make it easier to identify exactly what a selector got wrong. Interactive environments make the task more realistic, but mistakes can accumulate and become entangled. Both forms of evaluation are necessary for a convincing account of agent reliability.
+
+\section{A diagnostic reporting framework}
+The most useful evaluation report would present a small set of complementary measures rather than a single leaderboard score.
+
+\subsection{Retrieval, selection and necessity}
+Top-$k$ retrieval recall measures whether at least one acceptable tool appears among the $k$ retrieved candidates:
+\begin{equation}
+ \mathrm{Recall@}k=\frac{1}{N}\sum_{i=1}^N\mathbf{1}\big[\mathrm{Top}_k(x_i)\cap V(x_i,T_i)\ne\emptyset\big].
+\end{equation}
+This is not the same as final choice accuracy. An agent can retrieve a valid tool in the first five candidates and still pick an invalid one. Reports should therefore give final top-1 validity separately. For tasks designed to test abstention, the confusion matrix should distinguish unnecessary tool use from failure to invoke a needed tool.
+
+\subsection{Functional equivalence and argument validity}
+A label set should contain all tools that meet the task's constraints, not an arbitrary preferred vendor. This allows semantic or functional validity to be measured in addition to exact identifier match. When parameters are generated, correctness should be broken down into tool choice and argument validation, including cases where parameters satisfy a JSON schema but fail the user's semantic constraints.
+
+\subsection{Sequence outcomes and operational utility}
+Trajectory evaluation should record the first failed decision, the number of successful steps before failure, and whether the final state meets the goal. Cost and latency also matter. A task reward can be written as a schematic utility,
+\begin{equation}
+ U = R_{\mathrm{task}}-\lambda C_{\mathrm{calls}}-\mu L_{\mathrm{latency}}-\nu R_{\mathrm{risk}},
+\end{equation}
+where the weights reflect application priorities. These weights are not universal constants; publishing them is part of making a cost-aware comparison meaningful.
+
+\subsection{Robustness and consistency}
+A robust evaluation should vary the number of tools, the share of similar distractors, description quality and schema changes. For non-deterministic systems, repeated-trial reporting is important. $\tau$-bench's emphasis on consistency across runs offers a useful precedent~\cite{taubench}. A deterministic selection program does not need repeated random trials merely to confirm that identical inputs produce identical outputs; it does need appropriate variation in test tasks.
+
+\section{Limitations in present evaluation practice}
+\textbf{Ground truth is not always unique.} A benchmark that marks just one tool as correct can penalize legitimate alternatives. The admissible set must be justified by functional requirements and, where relevant, environment state.
+
+\textbf{Tools change.} Documentation, availability, required authentication and supported arguments can evolve. A frozen description may be insufficient for a newly changed API. Gorilla's retrieval-aware design makes this issue clear~\cite{gorilla}.
+
+\textbf{End-to-end scores obscure causal attribution.} A final failure can arise from the wrong tool, a faulty parameter, an invalid plan or an unhandled response. Progress measures such as those emphasized by AgentBoard help, but they do not automatically solve causal diagnosis~\cite{agentboard}.
+
+\textbf{Synthetic tasks carry their own shortcuts.} Automatically generated queries can reuse the exact labels and phrasing of a tool catalog. A selector that knows that schema may score perfectly without learning a useful general skill. ToolBench's automatically constructed instructions make data provenance particularly important~\cite{toolllm}. Evaluation designs should disclose how examples were generated, what templates are shared across splits and who checked the ground truth.
+
+\textbf{Policy constraints alter what ``correct'' means.} A service may technically support a requested operation but be unavailable to the user or inappropriate under operational rules. An abstention may therefore be a successful decision, not an agent failure.
+
+\section{Research questions worth testing}
+The literature motivates several focused experiments, but the existence of an interesting experiment is not by itself a novelty claim.
+
+\paragraph{Calibration and abstention.} Can a selector estimate when the available evidence is too weak for a justified tool call? A suitable test would include positive, unnecessary and no-valid-tool cases, with attention to false-positive action rates rather than accuracy alone.
+
+\paragraph{Hard constraints among similar tools.} When candidate services share a core purpose, does a retrieval method respect requirements such as recency, geographic coverage, permissions and output format? The experimental design should distinguish explicit machine-readable metadata from information inferred solely from prose.
+
+\paragraph{Changing tool catalogs.} How do choices respond when an API is removed, a schema changes or a near-equivalent service appears? Versioned catalogs would help separate adaptation from memorization.
+
+\paragraph{Causal error attribution.} If tool calls are logged step by step, which fraction of task failures can be linked to selection itself rather than downstream execution? Instrumented simulators could make this question answerable without relying solely on final task outcome.
+
+\paragraph{Reliability and cost.} What trade-off exists between asking for more context, calling a tool and abstaining? A method that reduces calls without harming task validity may be preferable even when its exact-match function score is unchanged.
+
+These questions do not all require a new language model. Carefully controlled comparisons, ablations or simulator-based measurements can test a narrower claim. The important point is to hold the evaluation protocol constant and make the allowed information visible: a selector given structured capability labels should not be described as equivalent to an LLM reading unstructured tool documentation.
+
+\section{Conclusion}
+Tool selection is a small step in a tool-using agent's workflow, but errors at that step can determine everything that follows. The reviewed studies have made progress on retrieval, invocation, multi-step execution and interactive evaluation. They also show why no single number adequately describes the process. Exact function-name agreement is sometimes too strict; end-to-end success is often too broad.
+
+A better account begins with the practical question of whether an external action was necessary and whether the chosen capability could satisfy the request as stated. It then reports argument validity, execution, trajectory outcomes and operational constraints separately. Evaluations that include genuinely overlapping tools, justified abstention and changed documentation are especially informative. The remaining challenge is not merely to create larger tool catalogs, but to produce evidence that explains \emph{which decision failed, under what conditions, and why}.
+
+\begin{thebibliography}{99}\small
+\bibitem{liveapibench} B. Elder et al., ``Live API-Bench: 2500+ Live APIs for Testing Multi-Step Tool Calling,'' in \emph{Proc. EACL}, 2026, pp. 3092--3124. doi:10.18653/v1/2026.eacl-long.143.
+\bibitem{apibank} M. Li et al., ``API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs,'' in \emph{Proc. EMNLP}, 2023, pp. 3102--3116. doi:10.18653/v1/2023.emnlp-main.187.
+\bibitem{trust} R. Litschko et al., ``Establishing Trustworthiness: Rethinking Tasks and Model Evaluation,'' in \emph{Proc. EMNLP}, 2023. doi:10.18653/v1/2023.emnlp-main.14.
+\bibitem{agentbench} X. Liu et al., ``AgentBench: Evaluating LLMs as Agents,'' in \emph{ICLR}, 2024, arXiv:2308.03688.
+\bibitem{toolsandbox} J. Lu et al., ``ToolSandbox: A Stateful, Conversational, Interactive Evaluation Benchmark for LLM Tool Use Capabilities,'' in \emph{Findings of NAACL}, 2025, pp. 1160--1183. doi:10.18653/v1/2025.findings-naacl.65.
+\bibitem{agentboard} C. Ma et al., ``AgentBoard: An Analytical Evaluation Board of Multi-turn LLM Agents,'' arXiv:2401.13178, 2024.
+\bibitem{reformulation} V. Mishra et al., ``How Can Input Reformulation Improve Tool Usage Accuracy in a Complex Dynamic Environment?'' in \emph{Findings of EMNLP}, 2025. doi:10.18653/v1/2025.findings-emnlp.1250.
+\bibitem{gorilla} S. G. Patil et al., ``Gorilla: Large Language Model Connected with Massive APIs,'' in \emph{NeurIPS}, 2024, arXiv:2305.15334.
+\bibitem{toolreflection} G. Polyakov et al., ``ToolReflection: Improving Large Language Models for Real-World API Calls with Self-Generated Data,'' in \emph{REALM Workshop}, 2025. doi:10.18653/v1/2025.realm-1.14.
+\bibitem{smart} C. Qian et al., ``SMART: Self-Aware Agent for Tool Overuse Mitigation,'' arXiv:2502.11435, 2025.
+\bibitem{toolllm} Y. Qin et al., ``ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs,'' in \emph{ICLR}, 2024, arXiv:2307.16789.
+\bibitem{toolformer} T. Schick et al., ``Toolformer: Language Models Can Teach Themselves to Use Tools,'' in \emph{NeurIPS}, 2023, arXiv:2302.04761.
+\bibitem{taubench} S. Yao et al., ``$\tau$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains,'' arXiv:2406.12045, 2024.
+\bibitem{react} S. Yao et al., ``ReAct: Synergizing Reasoning and Acting in Language Models,'' in \emph{ICLR}, 2023, arXiv:2210.03629.
+\bibitem{webarena} S. Zhou et al., ``WebArena: A Realistic Web Environment for Building Autonomous Agents,'' in \emph{ICLR}, 2024, arXiv:2307.13854.
+\bibitem{toolqa} Y. Zhuang et al., ``ToolQA: A Dataset for LLM Question Answering with External Tools,'' in \emph{NeurIPS}, 2023, arXiv:2306.13304.
+\end{thebibliography}
+\end{document}

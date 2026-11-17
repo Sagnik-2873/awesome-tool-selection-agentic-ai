@@ -1,0 +1,11 @@
+{
+  "title": "Constraint-Valid Tool Selection Under Description Variation",
+  "seed": 2026,
+  "description_conditions": ["original", "reordered", "distractor"],
+  "methods": ["tfidf_word", "tfidf_char", "constraint_aware", "constraint_no_domain", "constraint_no_format"],
+  "primary_metric": "valid_top1_or_abstain_accuracy",
+  "secondary_metrics": ["per_condition_accuracy", "paired_difference", "per_query_latency_ms"],
+  "bootstrap_iterations": 3000,
+  "split_policy": "train/dev/test use disjoint query templates, common domain and tool schema",
+  "generalization_boundary": "synthetic, templated, non-LLM, no live API execution"
+}

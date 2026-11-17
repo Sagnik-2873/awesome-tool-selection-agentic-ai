@@ -1,0 +1,770 @@
+[
+  {
+    "id": "weather__india__live__json",
+    "domain": "weather",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "description": "meteorological forecasts and weather forecasts. Data coverage india; live feed. Supports json output. API client."
+  },
+  {
+    "id": "weather__india__live__csv",
+    "domain": "weather",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "description": "meteorological forecasts and weather forecasts. Data coverage india; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "weather__india__historical__json",
+    "domain": "weather",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "description": "meteorological forecasts and weather forecasts. Data coverage india; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "weather__india__historical__csv",
+    "domain": "weather",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "description": "meteorological forecasts and weather forecasts. Data coverage india; historical feed. Supports csv output. API client."
+  },
+  {
+    "id": "weather__global__live__json",
+    "domain": "weather",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "description": "meteorological forecasts and weather forecasts. Data coverage global; live feed. Supports json output. API client."
+  },
+  {
+    "id": "weather__global__live__csv",
+    "domain": "weather",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "description": "meteorological forecasts and weather forecasts. Data coverage global; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "weather__global__historical__json",
+    "domain": "weather",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "description": "meteorological forecasts and weather forecasts. Data coverage global; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "weather__global__historical__csv",
+    "domain": "weather",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "description": "meteorological forecasts and weather forecasts. Data coverage global; historical feed. Supports csv output. API client."
+  },
+  {
+    "id": "currency__india__live__json",
+    "domain": "currency",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "description": "foreign exchange rates and currency exchange. Data coverage india; live feed. Supports json output. API client."
+  },
+  {
+    "id": "currency__india__live__csv",
+    "domain": "currency",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "description": "foreign exchange rates and currency exchange. Data coverage india; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "currency__india__historical__json",
+    "domain": "currency",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "description": "foreign exchange rates and currency exchange. Data coverage india; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "currency__india__historical__csv",
+    "domain": "currency",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "description": "foreign exchange rates and currency exchange. Data coverage india; historical feed. Supports csv output. API client."
+  },
+  {
+    "id": "currency__global__live__json",
+    "domain": "currency",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "description": "foreign exchange rates and currency exchange. Data coverage global; live feed. Supports json output. API client."
+  },
+  {
+    "id": "currency__global__live__csv",
+    "domain": "currency",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "description": "foreign exchange rates and currency exchange. Data coverage global; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "currency__global__historical__json",
+    "domain": "currency",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "description": "foreign exchange rates and currency exchange. Data coverage global; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "currency__global__historical__csv",
+    "domain": "currency",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "description": "foreign exchange rates and currency exchange. Data coverage global; historical feed. Supports csv output. API client."
+  },
+  {
+    "id": "maps__india__live__json",
+    "domain": "maps",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "description": "route navigation and map directions. Data coverage india; live feed. Supports json output. API client."
+  },
+  {
+    "id": "maps__india__live__csv",
+    "domain": "maps",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "description": "route navigation and map directions. Data coverage india; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "maps__india__historical__json",
+    "domain": "maps",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "description": "route navigation and map directions. Data coverage india; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "maps__india__historical__csv",
+    "domain": "maps",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "description": "route navigation and map directions. Data coverage india; historical feed. Supports csv output. API client."
+  },
+  {
+    "id": "maps__global__live__json",
+    "domain": "maps",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "description": "route navigation and map directions. Data coverage global; live feed. Supports json output. API client."
+  },
+  {
+    "id": "maps__global__live__csv",
+    "domain": "maps",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "description": "route navigation and map directions. Data coverage global; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "maps__global__historical__json",
+    "domain": "maps",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "description": "route navigation and map directions. Data coverage global; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "maps__global__historical__csv",
+    "domain": "maps",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "description": "route navigation and map directions. Data coverage global; historical feed. Supports csv output. API client."
+  },
+  {
+    "id": "news__india__live__json",
+    "domain": "news",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "description": "news headlines and news articles. Data coverage india; live feed. Supports json output. API client."
+  },
+  {
+    "id": "news__india__live__csv",
+    "domain": "news",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "description": "news headlines and news articles. Data coverage india; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "news__india__historical__json",
+    "domain": "news",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "description": "news headlines and news articles. Data coverage india; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "news__india__historical__csv",
+    "domain": "news",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "description": "news headlines and news articles. Data coverage india; historical feed. Supports csv output. API client."
+  },
+  {
+    "id": "news__global__live__json",
+    "domain": "news",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "description": "news headlines and news articles. Data coverage global; live feed. Supports json output. API client."
+  },
+  {
+    "id": "news__global__live__csv",
+    "domain": "news",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "description": "news headlines and news articles. Data coverage global; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "news__global__historical__json",
+    "domain": "news",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "description": "news headlines and news articles. Data coverage global; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "news__global__historical__csv",
+    "domain": "news",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "description": "news headlines and news articles. Data coverage global; historical feed. Supports csv output. API client."
+  },
+  {
+    "id": "translation__india__live__json",
+    "domain": "translation",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "description": "language translation and translate text. Data coverage india; live feed. Supports json output. API client."
+  },
+  {
+    "id": "translation__india__live__csv",
+    "domain": "translation",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "description": "language translation and translate text. Data coverage india; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "translation__india__historical__json",
+    "domain": "translation",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "description": "language translation and translate text. Data coverage india; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "translation__india__historical__csv",
+    "domain": "translation",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "description": "language translation and translate text. Data coverage india; historical feed. Supports csv output. API client."
+  },
+  {
+    "id": "translation__global__live__json",
+    "domain": "translation",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "description": "language translation and translate text. Data coverage global; live feed. Supports json output. API client."
+  },
+  {
+    "id": "translation__global__live__csv",
+    "domain": "translation",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "description": "language translation and translate text. Data coverage global; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "translation__global__historical__json",
+    "domain": "translation",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "description": "language translation and translate text. Data coverage global; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "translation__global__historical__csv",
+    "domain": "translation",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "description": "language translation and translate text. Data coverage global; historical feed. Supports csv output. API client."
+  },
+  {
+    "id": "stocks__india__live__json",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "description": "equity market prices and stock prices. Data coverage india; live feed. Supports json output. API client."
+  },
+  {
+    "id": "stocks__india__live__csv",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "description": "equity market prices and stock prices. Data coverage india; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "stocks__india__historical__json",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "description": "equity market prices and stock prices. Data coverage india; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "stocks__india__historical__csv",
+    "domain": "stocks",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "description": "equity market prices and stock prices. Data coverage india; historical feed. Supports csv output. API client."
+  },
+  {
+    "id": "stocks__global__live__json",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "description": "equity market prices and stock prices. Data coverage global; live feed. Supports json output. API client."
+  },
+  {
+    "id": "stocks__global__live__csv",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "description": "equity market prices and stock prices. Data coverage global; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "stocks__global__historical__json",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "description": "equity market prices and stock prices. Data coverage global; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "stocks__global__historical__csv",
+    "domain": "stocks",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "description": "equity market prices and stock prices. Data coverage global; historical feed. Supports csv output. API client."
+  },
+  {
+    "id": "sports__india__live__json",
+    "domain": "sports",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "description": "sports results and sports scores. Data coverage india; live feed. Supports json output. API client."
+  },
+  {
+    "id": "sports__india__live__csv",
+    "domain": "sports",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "description": "sports results and sports scores. Data coverage india; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "sports__india__historical__json",
+    "domain": "sports",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "description": "sports results and sports scores. Data coverage india; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "sports__india__historical__csv",
+    "domain": "sports",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "description": "sports results and sports scores. Data coverage india; historical feed. Supports csv output. API client."
+  },
+  {
+    "id": "sports__global__live__json",
+    "domain": "sports",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "description": "sports results and sports scores. Data coverage global; live feed. Supports json output. API client."
+  },
+  {
+    "id": "sports__global__live__csv",
+    "domain": "sports",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "description": "sports results and sports scores. Data coverage global; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "sports__global__historical__json",
+    "domain": "sports",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "description": "sports results and sports scores. Data coverage global; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "sports__global__historical__csv",
+    "domain": "sports",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "description": "sports results and sports scores. Data coverage global; historical feed. Supports csv output. API client."
+  },
+  {
+    "id": "flights__india__live__json",
+    "domain": "flights",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "description": "air travel status and flight status. Data coverage india; live feed. Supports json output. API client."
+  },
+  {
+    "id": "flights__india__live__csv",
+    "domain": "flights",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "description": "air travel status and flight status. Data coverage india; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "flights__india__historical__json",
+    "domain": "flights",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "description": "air travel status and flight status. Data coverage india; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "flights__india__historical__csv",
+    "domain": "flights",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "description": "air travel status and flight status. Data coverage india; historical feed. Supports csv output. API client."
+  },
+  {
+    "id": "flights__global__live__json",
+    "domain": "flights",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "description": "air travel status and flight status. Data coverage global; live feed. Supports json output. API client."
+  },
+  {
+    "id": "flights__global__live__csv",
+    "domain": "flights",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "description": "air travel status and flight status. Data coverage global; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "flights__global__historical__json",
+    "domain": "flights",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "description": "air travel status and flight status. Data coverage global; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "flights__global__historical__csv",
+    "domain": "flights",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "description": "air travel status and flight status. Data coverage global; historical feed. Supports csv output. API client."
+  },
+  {
+    "id": "traffic__india__live__json",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "description": "road traffic conditions and traffic congestion. Data coverage india; live feed. Supports json output. API client."
+  },
+  {
+    "id": "traffic__india__live__csv",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "description": "road traffic conditions and traffic congestion. Data coverage india; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "traffic__india__historical__json",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "description": "road traffic conditions and traffic congestion. Data coverage india; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "traffic__india__historical__csv",
+    "domain": "traffic",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "description": "road traffic conditions and traffic congestion. Data coverage india; historical feed. Supports csv output. API client."
+  },
+  {
+    "id": "traffic__global__live__json",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "description": "road traffic conditions and traffic congestion. Data coverage global; live feed. Supports json output. API client."
+  },
+  {
+    "id": "traffic__global__live__csv",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "description": "road traffic conditions and traffic congestion. Data coverage global; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "traffic__global__historical__json",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "description": "road traffic conditions and traffic congestion. Data coverage global; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "traffic__global__historical__csv",
+    "domain": "traffic",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "description": "road traffic conditions and traffic congestion. Data coverage global; historical feed. Supports csv output. API client."
+  },
+  {
+    "id": "hotels__india__live__json",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "description": "hotel room availability and hotel bookings. Data coverage india; live feed. Supports json output. API client."
+  },
+  {
+    "id": "hotels__india__live__csv",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "description": "hotel room availability and hotel bookings. Data coverage india; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "hotels__india__historical__json",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "description": "hotel room availability and hotel bookings. Data coverage india; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "hotels__india__historical__csv",
+    "domain": "hotels",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "description": "hotel room availability and hotel bookings. Data coverage india; historical feed. Supports csv output. API client."
+  },
+  {
+    "id": "hotels__global__live__json",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "description": "hotel room availability and hotel bookings. Data coverage global; live feed. Supports json output. API client."
+  },
+  {
+    "id": "hotels__global__live__csv",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "description": "hotel room availability and hotel bookings. Data coverage global; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "hotels__global__historical__json",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "description": "hotel room availability and hotel bookings. Data coverage global; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "hotels__global__historical__csv",
+    "domain": "hotels",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "description": "hotel room availability and hotel bookings. Data coverage global; historical feed. Supports csv output. API client."
+  },
+  {
+    "id": "shopping__india__live__json",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "description": "retail product catalog and product shopping. Data coverage india; live feed. Supports json output. API client."
+  },
+  {
+    "id": "shopping__india__live__csv",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "description": "retail product catalog and product shopping. Data coverage india; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "shopping__india__historical__json",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "description": "retail product catalog and product shopping. Data coverage india; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "shopping__india__historical__csv",
+    "domain": "shopping",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "description": "retail product catalog and product shopping. Data coverage india; historical feed. Supports csv output. API client."
+  },
+  {
+    "id": "shopping__global__live__json",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "description": "retail product catalog and product shopping. Data coverage global; live feed. Supports json output. API client."
+  },
+  {
+    "id": "shopping__global__live__csv",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "description": "retail product catalog and product shopping. Data coverage global; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "shopping__global__historical__json",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "description": "retail product catalog and product shopping. Data coverage global; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "shopping__global__historical__csv",
+    "domain": "shopping",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "description": "retail product catalog and product shopping. Data coverage global; historical feed. Supports csv output. API client."
+  },
+  {
+    "id": "health__india__live__json",
+    "domain": "health",
+    "region": "india",
+    "mode": "live",
+    "format": "json",
+    "description": "medical facility directory and find clinics. Data coverage india; live feed. Supports json output. API client."
+  },
+  {
+    "id": "health__india__live__csv",
+    "domain": "health",
+    "region": "india",
+    "mode": "live",
+    "format": "csv",
+    "description": "medical facility directory and find clinics. Data coverage india; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "health__india__historical__json",
+    "domain": "health",
+    "region": "india",
+    "mode": "historical",
+    "format": "json",
+    "description": "medical facility directory and find clinics. Data coverage india; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "health__india__historical__csv",
+    "domain": "health",
+    "region": "india",
+    "mode": "historical",
+    "format": "csv",
+    "description": "medical facility directory and find clinics. Data coverage india; historical feed. Supports csv output. API client."
+  },
+  {
+    "id": "health__global__live__json",
+    "domain": "health",
+    "region": "global",
+    "mode": "live",
+    "format": "json",
+    "description": "medical facility directory and find clinics. Data coverage global; live feed. Supports json output. API client."
+  },
+  {
+    "id": "health__global__live__csv",
+    "domain": "health",
+    "region": "global",
+    "mode": "live",
+    "format": "csv",
+    "description": "medical facility directory and find clinics. Data coverage global; live feed. Supports csv output. API client."
+  },
+  {
+    "id": "health__global__historical__json",
+    "domain": "health",
+    "region": "global",
+    "mode": "historical",
+    "format": "json",
+    "description": "medical facility directory and find clinics. Data coverage global; historical feed. Supports json output. API client."
+  },
+  {
+    "id": "health__global__historical__csv",
+    "domain": "health",
+    "region": "global",
+    "mode": "historical",
+    "format": "csv",
+    "description": "medical facility directory and find clinics. Data coverage global; historical feed. Supports csv output. API client."
+  }
+]
